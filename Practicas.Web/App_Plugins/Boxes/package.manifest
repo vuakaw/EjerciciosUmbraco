@@ -1,0 +1,17 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "Boxes",
+      "editor": {
+        "valueType": "JSON",
+        "view": "~/App_Plugins/Boxes/Boxes.html"
+      },
+      "hideLabel": true,
+      "isParameterEditor": true,
+      "name": "Boxes"
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/Boxes/Boxes.controller.js"
+  ]
+}

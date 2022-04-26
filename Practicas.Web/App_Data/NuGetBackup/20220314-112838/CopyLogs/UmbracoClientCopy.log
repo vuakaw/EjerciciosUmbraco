@@ -1,0 +1,216 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Inicio: lunes, 14 de marzo de 202211:28:40 a. m.
+   Origen : F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\
+     Destino : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Umbraco_Client\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Application\
+	    Nuevo arch		   14404	Extensions.js100%  
+	    Nuevo arch		    2417	HistoryManager.js100%  
+	    Nuevo arch		     839	NamespaceManager.js100%  
+	    Nuevo arch		   18827	UmbracoApplicationActions.js100%  
+	    Nuevo arch		   12855	UmbracoClientManager.js100%  
+	    Nuevo arch		     374	UmbracoUtils.js100%  
+	    Nuevo arch		    2060	UrlEncoder.js100%  
+	   Nuevo dir      12	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	    Nuevo arch		    2057	jquery-fieldselection.js100%  
+	    Nuevo arch		   30336	jquery.autocomplete.js100%  
+	    Nuevo arch		    5941	jquery.ba-bbq.min.js100%  
+	    Nuevo arch		    4344	jquery.cookie.js100%  
+	    Nuevo arch		    3178	jquery.hotkeys.js100%  
+	    Nuevo arch		    6992	jquery.idle-timer.js100%  
+	    Nuevo arch		    1304	jquery.metadata.min.js100%  
+	    Nuevo arch		     165	jquery.noconflict-invoke.js100%  
+	    Nuevo arch		    2749	jquery.unobtrusive-ajax.min.js100%  
+	    Nuevo arch		   21496	jquery.validate.min.js100%  
+	    Nuevo arch		    3745	jquery.validate.unobtrusive.min.js100%  
+	    Nuevo arch		     255	VerticalAlign.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\CodeArea\
+	    Nuevo arch		    6126	javascript.js100%  
+	    Nuevo arch		     305	styles.css100%  
+	    Nuevo arch		    6997	UmbracoEditor.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\ContextMenu\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	    Nuevo arch		    4026	jquery.contextMenu.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	    Nuevo arch		   62773	jquery.contextMenu.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Datepicker\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	    Nuevo arch		    4884	theme.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	    Nuevo arch		   20315	datetimepicker.css100%  
+	    Nuevo arch		   13311	timepicker.js100%  
+	    Nuevo arch		    1939	umbDateTimePicker.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	    Nuevo arch		    1110	calSprite.png100%  
+	    Nuevo arch		    8673	ui-icons_666666_256x240.png100%  
+	    Nuevo arch		    8641	ui-icons_999999_256x240.png100%  
+	   Nuevo dir      10	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Dialogs\
+	    Nuevo arch		     362	AssignDomain2.css100%  
+	    Nuevo arch		    5351	AssignDomain2.js100%  
+	    Nuevo arch		     212	CreateDialog.css100%  
+	    Nuevo arch		     316	EditMacro.css100%  
+	    Nuevo arch		    7379	EditMacro.js100%  
+	    Nuevo arch		     362	PublishDialog.css100%  
+	    Nuevo arch		    3481	PublishDialog.js100%  
+	    Nuevo arch		    1171	SortDialog.css100%  
+	    Nuevo arch		    4713	SortDialog.js100%  
+	    Nuevo arch		    6012	UmbracoField.js100%  
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Editors\
+	    Nuevo arch		     486	DirectoryBrowser.css100%  
+	    Nuevo arch		     703	EditMacro.css100%  
+	    Nuevo arch		    3796	EditStyleSheet.js100%  
+	    Nuevo arch		    6259	EditTemplate.js100%  
+	    Nuevo arch		   11260	EditView.js100%  
+	    Nuevo arch		     161	EditXslt.css100%  
+	    Nuevo arch		    2967	EditXslt.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\FileUploader\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	    Nuevo arch		   16856	jquery.fileUploader.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	    Nuevo arch		    5366	folderbrowser.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	    Nuevo arch		   18665	folderbrowser.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Images\
+	    Nuevo arch		   10819	progressbar.gif100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\MacroContainer\
+	    Nuevo arch		     666	macroContainer.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\MaskedInput\
+	    Nuevo arch		    4028	jquery.maskedinput-1.3.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Menuicon\
+	    Nuevo arch		     571	style.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	    Nuevo arch		     273	buttonbg.gif100%  
+	    Nuevo arch		     273	buttonbgdown.gif100%  
+	    Nuevo arch		     851	split.gif100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Modal\
+	    Nuevo arch		   24893	jquery.simplemodal.1.4.1.custom.js100%  
+	    Nuevo arch		   20746	modal.js100%  
+	    Nuevo arch		     475	modalBackground.gif100%  
+	    Nuevo arch		     151	modalGradiant.gif100%  
+	    Nuevo arch		    1417	style.css100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Panel\
+	    Nuevo arch		     240	javascript.js100%  
+	    Nuevo arch		    2608	style.css100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Panel\Images\
+	    Nuevo arch		      98	panel_bg.gif100%  
+	    Nuevo arch		      43	panel_boxfooter_bg.gif100%  
+	    Nuevo arch		     162	panel_boxfooter_statusBar_bg.gif100%  
+	    Nuevo arch		     164	panel_boxfooter_statusBar_h2_bg.gif100%  
+	    Nuevo arch		     194	panel_boxhead_bg.gif100%  
+	    Nuevo arch		     193	panel_boxhead_h2_bg.gif100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Preview\
+	    Nuevo arch		    3508	previewModeBadge.png100%  
+	    Nuevo arch		     169	umbracoPreview.css100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\ProgressBar\
+	    Nuevo arch		     795	javascript.js100%  
+	    Nuevo arch		     524	style.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	    Nuevo arch		     314	container_left.gif100%  
+	    Nuevo arch		     102	container_right.gif100%  
+	    Nuevo arch		     113	indicator.gif100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Propertypane\
+	    Nuevo arch		    2000	style.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	    Nuevo arch		    9038	propertyBackground.gif100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\PunyCode\
+	    Nuevo arch		    2803	punycode.min.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	    Nuevo arch		    2851	javascript.js100%  
+	    Nuevo arch		     255	style.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Splitbutton\
+	    Nuevo arch		    2245	InsertMacroSplitButton.js100%  
+	    Nuevo arch		   18462	jquery.splitbutton.js100%  
+	    Nuevo arch		    2773	splitbutton.css100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	    Nuevo arch		     130	splitbutton_downarrow.png100%  
+	    Nuevo arch		     149	splitbutton_hover.png100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tablesorting\
+	    Nuevo arch		   16523	jquery.tablesorter.min.js100%  
+	    Nuevo arch		   18249	tableDragAndDrop.js100%  
+	    Nuevo arch		   23499	tableFilter.js100%  
+	    Nuevo arch		   12838	tableFilterUtill.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	    Nuevo arch		     830	asc.gif100%  
+	    Nuevo arch		      73	bg.gif100%  
+	    Nuevo arch		     833	desc.gif100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tabview\
+	    Nuevo arch		    3721	javascript.js100%  
+	    Nuevo arch		    1589	oldstyle.css100%  
+	    Nuevo arch		    2633	style.css100%  
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	    Nuevo arch		     169	background.gif100%  
+	    Nuevo arch		      73	bg.gif100%  
+	    Nuevo arch		      43	footer_bg.gif100%  
+	    Nuevo arch		     162	footer_statusBar_bg.gif100%  
+	    Nuevo arch		     164	footer_statusBar_h2_bg.gif100%  
+	    Nuevo arch		    1343	left_both.gif100%  
+	    Nuevo arch		    3913	right_both.gif100%  
+	   Nuevo dir      10	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tree\
+	    Nuevo arch		    2638	jquery.tree.checkbox.js100%  
+	    Nuevo arch		    9638	jquery.tree.contextmenu.js100%  
+	    Nuevo arch		  114705	jquery.tree.js100%  
+	    Nuevo arch		     548	jquery.tree.metadata.js100%  
+	    Nuevo arch		    1642	menuIcons.css100%  
+	    Nuevo arch		    1866	NodeDefinition.js100%  
+	    Nuevo arch		   12897	sprites.png100%  
+	    Nuevo arch		    2597	treeIcons.css100%  
+	    Nuevo arch		    3662	UmbracoContext.js100%  
+	    Nuevo arch		   55287	UmbracoTree.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	    Nuevo arch		      43	dot_for_ie.gif100%  
+	    Nuevo arch		    6680	icons.png100%  
+	    Nuevo arch		    2435	style.css100%  
+	    Nuevo arch		    1844	throbber.gif100%  
+	   Nuevo dir      10	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	    Nuevo arch		    1600	arrows.png100%  
+	    Nuevo arch		    2910	check_0.png100%  
+	    Nuevo arch		    3197	check_1.png100%  
+	    Nuevo arch		    3283	check_2.png100%  
+	    Nuevo arch		      54	contextMenuBg.gif100%  
+	    Nuevo arch		    6680	icons.png100%  
+	    Nuevo arch		     381	newVersion_overlay.png100%  
+	    Nuevo arch		     282	protect_overlay.gif100%  
+	    Nuevo arch		    5258	style.css100%  
+	    Nuevo arch		    1844	throbber.gif100%  
+	   Nuevo dir      14	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco_Client\Ui\
+	    Nuevo arch		   52012	base2.js100%  
+	    Nuevo arch		    4482	dd.css100%  
+	    Nuevo arch		     138	dd_arrow.gif100%  
+	    Nuevo arch		   13659	default.css100%  
+	    Nuevo arch		    2324	default.js100%  
+	    Nuevo arch		    1423	jquery.alphanumeric.js100%  
+	    Nuevo arch		   51648	jquery.dd.js100%  
+	    Nuevo arch		   85582	jquery.js100%  
+	    Nuevo arch		    3581	jquery.tooltip.min.js100%  
+	    Nuevo arch		  240439	jqueryui.js 54%  100%  
+	    Nuevo arch		    1943	jQueryWresize.js100%  
+	    Nuevo arch		    3954	json2.js100%  
+	    Nuevo arch		   41412	knockout.js100%  
+	    Nuevo arch		    8687	knockout.mapping.js100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:        44        43         1         0         0         0
+ Archivos:       143       143         0         0         0         0
+    Bytes:    1.26 m    1.26 m         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Velocidad:            11416568 Bytes/s
+Velocidad:             653.261 Megabytes/min
+   Finalizado: lunes, 14 de marzo de 2022 11:28:40 a. m.
+

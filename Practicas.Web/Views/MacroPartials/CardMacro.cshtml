@@ -1,0 +1,263 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using Umbraco.Web.Models
+
+@{
+    var marginT = Model.GetParameterValue<int>("marginTop", 0);
+    var marginB = Model.GetParameterValue<int>("marginBot", 0);
+    var icon = Model.MacroParameters["icon"];
+    var iconObject = Umbraco.TypedMedia(icon);
+    var secondIcon = Model.MacroParameters["secondIcon"];
+    var secondIconObject = Umbraco.TypedMedia(secondIcon);
+    var codeColor1 = Model.GetParameterValue<string>("firstCodeColor", "gray");
+    var codeColor2 = Model.GetParameterValue<string>("secondCodeColor", "gray");
+    var secondInfoText = Model.MacroParameters["secondTextInfo"];
+    string marginTop = marginT.ToString() + "px";
+    string marginBot = marginB.ToString() + "px";
+    var name = Model.GetParameterValue<string>("macroName", "mone");
+    string macroName = name.ToString();
+    bool fullWidth = Model.GetParameterValue<bool>("fullWidth", false);
+    var width = "100%";
+    var margin = "";
+    var className = "";
+    if (fullWidth == true)
+    {
+        width = "133.4%";
+        margin = "-16.7%";
+    }
+    if (macroName.Contains(" "))
+    {
+        macroName = macroName.Replace(" ", "");
+    }
+}
+<style>
+    .card-macro#@macroName {
+        width: @width;
+        margin: @marginTop auto @marginBot @margin;
+        background-color: green;
+    }
+
+    .card-macro#@macroName .align-cards {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #@macroName .contenedor-cartas {
+        width: 660px;
+        height: 250px;
+        padding: 0;
+        position: relative;
+    }
+    .carta {
+        display: flex;
+        cursor: pointer;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 26px;
+        position: absolute;
+        transition: all ease-in .3s;
+        top: 0;
+        border: 1px solid gray;
+    }
+
+    .carta:hover {
+        top: -10px;
+        box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.93);
+        -webkit-box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.93);
+        -moz-box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.93);
+    }
+
+    .circle-background {
+        width: 30%;
+        height: 100%;
+        clip-path: circle(80% at 0 50%);
+        position: relative;
+    }
+
+    #@macroName .contenedor-cartas .carta .circle-background {
+        background-color: @codeColor1;
+    }
+
+    #@macroName .contenedor-cartas .carta .second-background {
+        background-color: @codeColor2 !important;
+    }
+
+
+    .logo-carta {
+        margin: 0;
+        width: 40%;
+        height: 33%;
+        position: absolute;
+        top: 33%;
+        left: 20%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .carta-texto {
+        width: 70%;
+        padding: 15% 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #004b8d;
+    }
+
+    .carta-texto > p {
+        font-size: 17px;
+    }
+    .carta-texto > h3 {
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+    }
+    .arrowMove{
+        position: absolute;
+        right: 30%;
+        transition: all ease-in .3s;
+    }
+
+    .carta:hover .arrowMove
+    {
+        right: 5%;
+        font-weight: 700;
+    }
+
+    @@media(max-width: 1650px) {
+        .card-macro.in-container#@macroName .align-cards{
+            flex-direction: column;
+            gap: 20px;
+        }
+         .in-container#@macroName .contenedor-cartas {
+            margin: 0 auto;
+        }
+    }
+
+    @@media(max-width: 880px) {
+        .in-container#@macroName .contenedor-cartas {
+            width: 100%;
+            height: 280px;
+        }
+
+        .in-container#@macroName .circle-background {
+            width: 20%;
+            clip-path: circle(20% at 50% 50%);
+        }
+
+        .in-container#@macroName .carta-texto {
+            width: 80%;
+        }
+
+        .in-container#@macroName .arrowMove {
+            right: 5%;
+            top: 0;
+        }
+
+        .in-container#@macroName .carta:hover .arrowMove {
+            top: 300%;
+        }
+
+        .in-container#@macroName .logo-carta {
+            width: 20px;
+            height: 40px;
+            top: 42%;
+            left: 42%;
+            background-size: cover;
+        }
+    }
+
+    @@media(max-width: 1320px) {
+        .card-macro.full-width#@macroName .align-cards{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .full-width#@macroName .contenedor-cartas {
+            margin: 0 auto;
+        }
+    }
+
+    @@media(max-width: 660px) {
+        .full-width#@macroName .contenedor-cartas {
+            width: 100%;
+            height: 280px;
+        }
+
+        .full-width#@macroName .circle-background {
+            width: 20%;
+            clip-path: circle(20% at 50% 50%);
+        }
+
+        .full-width#@macroName .carta-texto {
+            width: 80%;
+        }
+
+        .full-width#@macroName .arrowMove {
+            right: 5%;
+            top: 0;
+        }
+
+        .full-width#@macroName .carta:hover .arrowMove {
+            top: 300%;
+        }
+
+        .full-width#@macroName .logo-carta {
+            width: 20px;
+            height: 40px;
+            top: 42%;
+            left: 42%;
+            background-size: cover;
+        }
+    }
+</style>
+@if (fullWidth == true)
+{
+    className = "full-width";
+}
+else
+{
+    className = "in-container";
+}
+<div class="card-macro @className" id="@macroName">
+    <div class="align-cards">
+        <div class="contenedor-cartas">
+            <div class="carta">
+                <div class="circle-background">
+                    <div class="logo-carta" style="background-image: url('@iconObject.Url');">
+                    </div>
+                </div>
+                <div class="carta-texto">
+                    @Html.Raw(HttpUtility.HtmlDecode(@Model.MacroParameters["textInfo"].ToString()))
+                </div>
+            </div>
+        </div>
+        @if (secondIconObject != null && codeColor2 != null && secondInfoText != null)
+        {
+            <div class="contenedor-cartas">
+                <div class="carta">
+                    <div class="circle-background second-background">
+                        <div class="logo-carta" style="background-image: url('@secondIconObject.Url');">
+                        </div>
+                    </div>
+                    <div class="carta-texto">
+                        @Html.Raw(HttpUtility.HtmlDecode(@Model.MacroParameters["secondTextInfo"].ToString()))
+                    </div>
+                </div>
+            </div>
+        }
+    </div>    
+</div>
+
+
+
+
+
+
+

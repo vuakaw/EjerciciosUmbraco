@@ -1,0 +1,83 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using Umbraco.Web.Models
+@{
+    dynamic boxes = (!String.IsNullOrEmpty(Model.MacroParameters["boxes"].ToString())) ?
+        Json.Decode((dynamic)HttpUtility.HtmlDecode(Model.MacroParameters["boxes"].ToString())) : null;
+    string macroName = Model.GetParameterValue<string>("macroName", "macro1");
+    var widthCircle = 200 / 3 + "px";
+    var widthIcon = 200 / 3 / 1.5 + "px";
+}
+
+<style>
+    .boxMacro
+    {
+        width: 100%;
+        margin: 100px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+    #@macroName .box{
+        border: 1px solid;
+        position: relative;
+    }
+    #@macroName .box .circle {
+        border-radius: 50%;
+        position: absolute;
+        left: 33%;
+    }
+    #@macroName .box .circle .box-icon {
+        position: absolute;
+        bottom: 16.5%;
+        left: 17%;
+    }
+    .text h1 {
+        font-size: 26px;
+        font-weight: 500;
+        margin: 0;
+        text-align: center;
+    }
+    .text .columns ul{
+        list-style-type: circle;
+        margin: 0;
+        padding: 0 0 0 10px;
+    }
+    .text .columns ul p{
+        margin: 0;
+    }
+</style>
+<div id="@macroName" class="boxMacro">
+    @foreach (var box in boxes)
+    {
+        var width = "300";
+        var height = "250";
+        var rounded = "0";
+        var outline = "gray";
+        var boxColor = "yellow";
+        var circleColor = "blue";
+        var image = box.img;
+        if (box.widthBox != null && box.widthBox != "0") { width = box.widthBox; }
+        int widthNumber = Convert.ToInt32(width);
+        if (box.heightBox != null && box.heightBox != "0") { height = box.heightBox; }
+        double widthForCircle = widthNumber / 3;
+        string widthCirclePixels = widthForCircle.ToString() + "px";
+        double widthForIcon = widthNumber / 3 / 1.5;
+        if (box.outlineBoxColor != null) { outline = box.outlineBoxColor; }
+        if (box.boxColor != null) { boxColor = box.boxColor; }
+        if (box.circleColor != null) { circleColor = box.circleColor; }
+        var roundedType = box.rounded;
+        if (roundedType is Boolean) { if (roundedType == true) { rounded = "15px"; } }
+
+        <div class="box" style="border: 1px solid @outline; background-color: @boxColor; border-radius: @rounded; height: @height; width: @width;">
+            <div class="circle" style="background-color: @circleColor; width: @widthForCircle; height: @widthForCircle; bottom: calc(100% - @widthCirclePixels / 2);">
+                <img class="box-icon" src=@image alt="icon" style="width: @widthForIcon; height: @widthForIcon;"/>
+            </div>
+            <div class="text" style="padding: calc(@widthCirclePixels / 2) 9px 0 9px;">
+                <h1>@box.title</h1>
+                <div class="columns">
+                    @Html.Raw(HttpUtility.HtmlDecode(box.column1.value.ToString()))
+                </div>
+            </div>
+        </div>
+    }
+</div>

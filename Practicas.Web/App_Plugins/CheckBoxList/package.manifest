@@ -1,0 +1,15 @@
+{   
+  "propertyEditors": [      
+      {
+          alias: "CheckBoxList",
+          name: "Checkbox List",
+          isParameterEditor: true,
+          editor: {
+              view: "~/App_Plugins/CheckBoxList/CheckBoxList.html"
+          }
+      }
+  ],
+  "javascript": [
+      "~/App_Plugins/CheckBoxList/CheckBoxList.controller.js"
+  ]
+}

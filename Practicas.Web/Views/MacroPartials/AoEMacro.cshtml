@@ -1,0 +1,306 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using Umbraco.Web.Models
+@{
+    var backgroundImage = Model.MacroParameters["backgroundImage"];
+    var bgImage = Umbraco.TypedMedia(backgroundImage);
+    var boxColor = Model.GetParameterValue<string>("boxColor", "gray");
+    dynamic sliderData = (!String.IsNullOrEmpty(Model.MacroParameters["accordion"].ToString())) ?
+        Json.Decode((dynamic)HttpUtility.HtmlDecode(Model.MacroParameters["accordion"].ToString())) : null;
+    int additionalHeight = sliderData.Length;
+    var position = Model.GetParameterValue<string>("position", "right");
+    bool fullWidth = Model.GetParameterValue<bool>("fullWidth", false);
+    bool openSeparately = Model.GetParameterValue<bool>("openSeparately", false);
+    string displayOn = Model.GetParameterValue<string>("displayOn", "hover");
+    displayOn.ToLower();
+    if (displayOn != "hover" && displayOn != "click")
+    {
+        displayOn = "hover";
+    }
+    var width = "100%";
+    var margin = "";
+    var className = "";
+    if (fullWidth == true)
+    {
+        width = "125%";
+        margin = "-12.5%";
+    }
+    string macroName = Model.GetParameterValue<string>("macroName", "macro1");
+    position.ToLower();
+    var alignment = position == "center" || position == "left" ? (position == "center" ? "none" : "left") : "right";
+    var marginTextArea = position == "center" || position == "left" ? (position == "center" ? "auto" : "15% 0 0 20%") : "15% 20% 0 0";
+    var paddingTop = position == "center" ? "15%" : "0";
+}
+<style>
+    .aoemacro {
+        height: 1350px;
+        background-size: cover;
+        background-position: center center;
+        padding: 0;
+    }
+
+
+    .margin-container #@macroName {
+        width: @width;
+        margin: 0 @margin;
+    }
+
+    #@macroName .textArea {
+        float: @alignment;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        min-width: 500px;
+        margin: @marginTextArea;
+        padding-top: @paddingTop;
+        font-size: 16px;
+        color: black;
+    }
+
+    .mainText
+    {
+        padding: 10px;
+        padding: 15px 10px;
+    }
+
+    .title {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .encabezado, .descripcion
+    {
+        margin: 0;
+    }
+
+    .accordionGroup
+    {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #@macroName .accordionGroup.activo {
+        background-color: @boxColor;
+    }
+
+    .accordionGroup .contenido
+    {
+        position: relative;
+        margin: 8px 0 0 0;
+        cursor: pointer;
+    }
+
+    .accordionGroup .contenido.activo {
+        padding-bottom: 5px;
+        cursor: default;
+    }
+
+    .accordionGroup .contenido .encabezado {
+        position: relative;
+        font-size: 25px;
+        font-weight: 700;
+        pointer-events: none;
+    }
+
+    .accordionGroup .contenido .encabezado::before {
+       content: '+';
+       position: absolute;
+       top: 50%;
+       right: 10px;
+       font-size: 20px;
+       font-weight: 700;
+       transform: translateY(-50%);
+    }
+
+    .accordionGroup.activo .contenido .encabezado::before {
+        content: '';
+    }
+
+    .accordionGroup.activo .contenido:first-child .encabezado::before {
+        content: 'X';
+        cursor: pointer;
+        pointer-events: all;
+    }
+
+    .accordionGroup .contenido .descripcion {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        transition: .6s;
+        overflow-y: hidden;
+    }
+
+    .accordionGroup.activo .contenido .descripcion {
+        height: 150px;
+    }
+
+    .accordionGroup .contenido .encabezado p{
+        margin-bottom: 8px;
+    }
+
+    .accordionGroup .contenido .descripcion p {
+        margin-bottom: 8px;
+        height: calc(70% - 12px);
+        overflow: hidden;
+    }
+
+    .accordionGroup .contenido .descripcion .botones {
+        display: grid;
+        height: 30%;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .accordionGroup .contenido .descripcion .botones a {
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 10px 20px;
+        background-color:#004b8d;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .accordionGroup .contenido .descripcion .botones a:hover {
+        border: 2px #004b8d solid;
+        background-color: white;
+        color: #004b8d;
+    }
+
+    .accordionGroup .contenido .linea {
+        height: 2px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .accordionGroup .contenido:last-child div.linea {
+        display: none;
+    }
+
+    .accordionGroup.activo .contenido div.linea {
+        display: none;
+    }
+
+    @@media(max-width: 650px) {
+        #@macroName .full-width.textArea {
+            float: none;
+            width: 90%;
+            margin: auto;
+            min-width: 90%;
+        }
+    }
+
+    @@media(max-width: 550px) {
+        #@macroName .full-width .accordionGroup.activo .contenido .descripcion {
+            height: 200px;
+        }
+
+        #@macroName .full-width .accordionGroup .contenido .descripcion p {
+            height: calc(50% - 12px);
+        }
+
+        #@macroName .full-width .accordionGroup .contenido .descripcion .botones {
+            height: 50%;
+            grid-template-columns: 100%;
+            gap: 5px;
+        }
+    }
+
+    @@media(max-width: 800px) {
+        #@macroName .in-container.textArea {
+            float: none;
+            width: 90%;
+            margin: auto;
+            min-width: 90%;
+        }
+    }
+
+    @@media(max-width: 650px) {
+        # @macroName .in-container .accordionGroup.activo .contenido .descripcion {
+            height: 200px;
+        }
+
+        #@macroName .in-container .accordionGroup .contenido .descripcion p {
+            height: calc(50% - 12px);
+        }
+        #@macroName .in-container .accordionGroup .contenido .descripcion .botones {
+            height: 50%;
+            grid-template-columns: 100%;
+            gap: 5px;
+        }
+    }
+</style>
+
+
+
+@if (fullWidth == false)
+{
+    className = "in-container";
+}
+else
+{
+    className = "full-width";
+}
+<div class="aoemacro" id="@macroName" style="background-image: url('@bgImage.Url');">
+    <div class="textArea @className">
+        <div class="mainText">
+            @Html.Raw(HttpUtility.HtmlDecode(@Model.MacroParameters["mainText"].ToString()))
+        </div>
+        <div class="accordionGroup">
+            @foreach (var slider in sliderData)
+            {
+                <div class="contenido">
+                    <div class="encabezado">
+                        @Html.Raw(HttpUtility.HtmlDecode(slider.name.value.ToString()))
+                    </div>
+                    <div class="descripcion">
+                        @Html.Raw(HttpUtility.HtmlDecode(slider.body.value.ToString()))
+                        <div class="botones">
+                            <a href="#">Search Contract Jobs</a>
+                            <a href="#">Search Direct Hire Jobs</a>
+                        </div>
+                    </div>
+                    <div class="linea"></div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@{ 
+    var classForAccordion = displayOn == "click" ? "accordion-on-click" : "accordion-on-hover";
+    var classForOpenAccordion = openSeparately == false ? "open-all" : "open-separately";
+}
+<script>
+    // añadir la clase que activará evento hover o click
+    $('#@macroName .textArea .accordionGroup').addClass('@classForAccordion');
+    $('#@macroName .textArea .accordionGroup').addClass('@classForOpenAccordion');
+
+
+    $('#@macroName .textArea .accordionGroup.accordion-on-hover.open-all').mouseenter(function () {
+        $('#@macroName .textArea .accordionGroup').addClass('activo');
+    });
+    $('#@macroName .textArea .accordionGroup.accordion-on-click.open-all').click(function () {
+        $('#@macroName .textArea .accordionGroup').addClass('activo');
+    });
+
+
+    $('#@macroName .textArea .accordionGroup').click(function (e) {
+        e.stopPropagation();
+    });
+
+    const containers = $('#@macroName .accordionGroup .textArea .contenido');
+
+
+    /*for (i = 0; i < containers.length; i++) {
+        containers[i].click(function () {
+            this.classList.toggle('active')
+        })
+    }*/
+    // Click outsite of macro or on the X
+
+    $('.aoemacro#@macroName, #@macroName .textArea .accordionGroup.open-all .contenido .encabezado').click(function () {
+        $('#@macroName .textArea .accordionGroup').removeClass('activo');
+    });
+</script>
+

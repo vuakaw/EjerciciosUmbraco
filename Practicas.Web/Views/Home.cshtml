@@ -1,0 +1,30 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Main.cshtml";
+}
+@{
+    var item = Model.Content.GetPropertyValue("imageJumbo");
+    var t = item.GetType();
+    var idProperty = t.GetProperty("Id");
+    var idImage = idProperty.GetValue(item);
+    var imageHero = Umbraco.TypedMedia(idImage);
+}
+
+<style>
+    .home-hero {
+        background: no-repeat center center;
+        background-attachment: scroll;
+        position: relative;
+        background-size: cover;
+        color: white;
+    }
+</style>
+<div class="jumbotron jumbotron-fluid home-hero" style="background-image: url('@imageHero.Url')">
+    <div class="inner">
+        <div class="container">
+            <h1 class="display-4">@Umbraco.Field("titleForJumbo")</h1>
+            <p class="lead">@Umbraco.Field("textForJumbo")</p>
+        </div>
+    </div>
+</div>
+@Html.Partial("ContentMargin")

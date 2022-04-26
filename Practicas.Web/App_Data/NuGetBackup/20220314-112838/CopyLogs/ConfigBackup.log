@@ -1,0 +1,73 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Inicio: lunes, 14 de marzo de 202211:28:38 a. m.
+   Origen : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Config\
+     Destino : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\App_Data\NuGetBackup\20220314-112838\Config\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Config\
+	    Nuevo arch		     305	404handlers.config100%  
+	    Nuevo arch		     681	applications.config100%  
+	    Nuevo arch		     739	BaseRestExtensions.config100%  
+	    Nuevo arch		    3981	ClientDependency.config100%  
+	    Nuevo arch		    2957	Dashboard.config100%  
+	    Nuevo arch		    7901	EmbeddedMedia.config100%  
+	    Nuevo arch		    1261	ExamineIndex.config100%  
+	    Nuevo arch		    1834	ExamineSettings.config100%  
+	    Nuevo arch		     465	feedProxy.config100%  
+	    Nuevo arch		     286	FileSystemProviders.config100%  
+	    Nuevo arch		    1167	grid.editors.config.js100%  
+	    Nuevo arch		    1141	HealthChecks.config100%  
+	    Nuevo arch		    1108	log4net.config100%  
+	    Nuevo arch		      72	metablogConfig.config100%  
+	    Nuevo arch		     837	scripting.config100%  
+	    Nuevo arch		   12384	tinyMceConfig.config100%  
+	    Nuevo arch		    5742	trees.config100%  
+	    Nuevo arch		    9456	umbracoSettings.config100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Config\BackOfficeTours\
+	    Nuevo arch		   26986	getting-started.json100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Config\imageprocessor\
+	    Nuevo arch		     379	cache.config100%  
+	    Nuevo arch		    4060	processing.config100%  
+	    Nuevo arch		    1064	security.config100%  
+	   Nuevo dir      18	F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Config\Lang\
+	    Nuevo arch		      83	cs-CZ.user.xml100%  
+	    Nuevo arch		      82	da-DK.user.xml100%  
+	    Nuevo arch		      82	de-DE.user.xml100%  
+	    Nuevo arch		      82	en-GB.user.xml100%  
+	    Nuevo arch		      82	en-US.user.xml100%  
+	    Nuevo arch		      82	es-ES.user.xml100%  
+	    Nuevo arch		      82	fr-FR.user.xml100%  
+	    Nuevo arch		      85	he-IL.user.xml100%  
+	    Nuevo arch		      85	it-IT.user.xml100%  
+	    Nuevo arch		      82	ja-JP.user.xml100%  
+	    Nuevo arch		      85	ko-KR.user.xml100%  
+	    Nuevo arch		      85	nb-NO.user.xml100%  
+	    Nuevo arch		      82	nl-NL.user.xml100%  
+	    Nuevo arch		      85	pl-PL.user.xml100%  
+	    Nuevo arch		      85	pt-BR.user.xml100%  
+	    Nuevo arch		      82	ru-RU.user.xml100%  
+	    Nuevo arch		      85	sv-SE.user.xml100%  
+	    Nuevo arch		      80	zh-CN.user.xml100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:         4         3         1         0         0         0
+ Archivos:        40        40         0         0         0         0
+    Bytes:    84.2 k    84.2 k         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Velocidad:             2615212 Bytes/s
+Velocidad:             149.643 Megabytes/min
+   Finalizado: lunes, 14 de marzo de 2022 11:28:38 a. m.
+

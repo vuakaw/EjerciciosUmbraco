@@ -1,0 +1,369 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Ejercicio5>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using Umbraco.Core.PropertyEditors.ValueConverters;
+@{
+    Layout = "Main.cshtml";
+    var imageObject = Model.Content.GetPropertyValue("headerImage");
+    var t = imageObject.GetType();
+    var idProperty = t.GetProperty("Id");
+    var idImage = idProperty.GetValue(imageObject);
+    var headerImage = Umbraco.TypedMedia(idImage);
+}
+<style>
+    .contenedor {
+        margin: auto;
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .h1 {
+        text-align: center;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cartas {
+        margin: auto;
+        max-width: 650px;
+    }
+
+    .cuadricula {
+        align-content: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .carta {
+        min-height: 270px;
+        border-radius: 8px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .contenido-arriba {
+        justify-content: left;
+    }
+
+    .carta-titulo.grande {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+
+    .carta-titulo.peque {
+        font-weight: 700;
+        font-size: 20px;
+        display: none;
+    }
+
+    .subrayado {
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        height: 7px !important;
+        border-radius: 10px;
+        background-color: orange;
+        opacity: 1;
+    }
+
+    .contenido-abajo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parrafos-hover
+    {
+        margin: 0 0 8px 0;
+        position: relative;
+    }
+    .grow-up-info {
+        transition: all ease-in .4s;
+    }
+
+    .grow-up-info {
+        position: absolute;
+        top: 0;
+    }
+    .carta:hover .grow-up-info {
+        top: -55px;
+    }
+    .carta:hover .descripcion-hover.invisible
+    {
+        visibility: visible !important;
+    }
+
+
+    .carta-descripcion {
+        font-weight: 600;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .descripcion-hover {
+        margin-top: 1px;
+        margin-bottom: 0;
+        padding-top: 0;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: justify;
+    }  
+    
+    .carta-links {
+        display: grid;
+        gap: 2px;
+        grid-auto-flow: dense;
+        grid-template-rows: 31px;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .carta-links > .boton-largo
+    {
+        grid-column: span 2;
+    }
+
+    .carta-boton {
+        text-decoration: none;
+        vertical-align: central;
+        text-align: center;
+        color: white;
+        padding: 2px 8px 4px 8px;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+
+    .carta-boton:hover {
+        background-color: white;
+        color: rgba(255, 99, 71, .9);
+    }
+
+    .carta-hover {
+        position: absolute;
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .carta:hover .carta-hover
+    {
+        background-color: #3b83bd;
+        border-radius: 10px;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        color: white;
+        width: 88%;
+        height: 88%;
+        margin: 0;
+        padding: 12px;
+        bottom: 6%;
+        left: 6%;
+    }
+    
+    .carta:hover .carta-titulo {
+        font-size: 17px;
+    }
+
+    .carta:hover .parrafos-hover {
+        margin-bottom: 12px;
+    } 
+    .carta:hover .carta-descripcion
+    {
+        margin-bottom: 1px;
+        padding-bottom: 0;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .carta:hover .boton-largo
+    {
+        grid-column: span 2;
+    }
+
+    .header {
+        background-image: url('@headerImage.Url');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .info-encabezado
+    {
+        padding-top: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nombre-empresa{
+        width: 20%;
+        margin: 0 auto;
+        min-width: 120px;
+    }
+
+    .nombre-empresa > .nombre{
+        font-size: large;
+        margin-bottom: 1px;
+    }
+    .nombre-empresa > .nombre-subrayado
+    {
+        height: 5px;
+        background-color: orange;
+        opacity: 1;
+        border-radius: 10px;
+        margin-top: 1px;
+        padding: 0;
+    }
+    .info-adicional
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .boton-encabezado {
+        width: 120px;
+        margin: 0 auto;
+        padding: 3px 4px 4px 4px;
+        border-radius: 30px;
+        color: white;
+        background-color: orange;
+        border: 2px solid orange;
+    }
+
+    .boton-encabezado:hover
+    {
+        background-color: white;
+        color: orange;
+    }
+
+    @@media (max-width: 991px) {
+        .cartas {
+            max-width: 450px;
+        }
+
+        .cuadricula {
+            grid-template-columns: 100%;
+        }
+
+        .carta {
+            height: 350px;
+        }
+
+        .carta-links {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header{
+            height: 300px;
+        }
+    }
+
+    @@media (max-width: 530px)
+    {
+        .carta-links {
+            display: grid;
+            gap: 5px;
+            grid-auto-flow: dense;
+            grid-template-rows: 31px;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        }
+        .header {
+            height: 400px;
+        }
+    }
+    
+    @@media (max-width: 430px) {
+        .contenedor {
+            margin: 0;
+            width: 100%;
+        }
+
+        .carta {
+            height: 300px;
+        }
+    }
+</style>
+
+<div class="header">
+    <div class="info-encabezado">
+        <div class="nombre-empresa">
+            <h3 class="nombre">@Umbraco.Field("companyName")</h3>
+            <hr class="nombre-subrayado" />
+        </div>
+        <div>
+            <h1 class="mensaje-principal">@Umbraco.Field("mainMessage")</h1>
+            <p class="info-adicional">@Umbraco.Field("additionalInfo")</p>
+        </div>        
+        <button class="boton-encabezado">Contact us</button>
+    </div>
+</div>
+
+<div class="contenedor">
+    @{
+        var cards = Model.Content.Site().FirstChild("about").FirstChild("CardsCollection").Children("Cards")
+                            .Where(x => x.IsVisible());
+    }
+    <h1 class="h1">Cartas</h1>
+    <div class="cartas">
+        <div class="cuadricula">
+            @foreach (var card in cards)
+            {
+                var cardImage = card.GetPropertyValue("cardImage");
+                var cardImageType = cardImage.GetType();
+                var cardIdProperty = cardImageType.GetProperty("Id");
+                var idImageCard = cardIdProperty.GetValue(cardImage);
+                var cardImageObject = Umbraco.TypedMedia(idImageCard);
+                var rgbLabel1 = card.GetPropertyValue<ColorPickerValueConverter.PickedColor>("gradientColor1").Label;
+                var rgbLabel2 = card.GetPropertyValue<ColorPickerValueConverter.PickedColor>("gradientColor2").Label;
+
+
+                <div class="carta" style="background-image: linear-gradient(to right, rgba(@rgbLabel1, .3) 20%,
+                                                                rgba(@rgbLabel2, .8)),
+                                                                url(@cardImageObject.Url);">
+                
+                    <div class="carta-hover">
+
+                        <div class="contenido-arriba">
+                            <h3 class="carta-titulo grande">@card.GetPropertyValue("cardTitle")</h3>
+                            <h3 class="carta-titulo peque">@card.GetPropertyValue("littleCardTitle")</h3>
+                            <hr class="subrayado" />
+                        </div>
+
+                        <div class="contenido-abajo">
+                            <div class="parrafos-hover">
+                                <p class="carta-descripcion invisible">Referencia</p>
+                                <div class="grow-up-info">
+                                    <p class="carta-descripcion">@card.GetPropertyValue("cardDescription")</p>
+                                    <p class="descripcion-hover invisible">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum a diam eget dignissim. Mauris. </p>
+                                </div>
+                            </div>                           
+
+                            <div class="carta-links">
+                                <a href="#" class="carta-boton">Ver más</a>
+                                <a href="#" class="carta-boton boton-largo">Link extremadamente largo</a>
+                                <a href="#" class="carta-boton">Ver más</a>
+                            </div>
+                        </div>                        
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

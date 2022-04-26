@@ -1,0 +1,123 @@
+﻿<style>
+
+    .divImage {
+        margin-top: 10px;
+    }
+
+    .divImagePosition {
+        margin-top: 10px;
+    }
+
+    .divText {
+        margin-top: 10px;
+    }
+
+    .accordionOther {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border-bottom: solid 5px #80808029;
+    }
+
+    h6 {
+        color: gray;
+        font-style: italic;
+        margin-bottom: 37px;
+    }
+</style>
+
+<div ng-controller="Macro.Boxes" style="overflow: hidden;">
+    <em>Click on the plus icon for adding more boxes</em>
+
+    <div style="margin-bottom:20px;"></div>
+
+    <div ui-sortable="sortableOptions" ng-model="model.value">
+
+        <div style="text-align:left;" class="simple-slider-list simple-slider-list-field" ng-class="{'simple-slider-open':selected == slide}" ng-click="select(slide)" ng-repeat="slide in model.value">
+
+            <span class="simple-slider-list-number">
+                {{slide.textLine1}}
+                <button type="button" ng-click="remove($index)" class="icon right icon-delete"></button>
+            </span>
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Title of the box</label>
+                <input type="text" placeholder="Title of the box" ng-model="slide.title" />
+            </div>
+
+            <div class="simple-slider-list-field divTitle">
+                <span style="color:#ff0000;float: left;">*</span>
+                <label>Information 1</label>
+                <div style="border: 1px solid #ccc">
+                    <ng-form>
+                        <umb-editor model="slide.column1" class="umb-editor"></umb-editor>
+                    </ng-form>
+                </div>
+            </div>
+
+
+            <em>Fill if you want text divided in two columns</em>
+            <div class="simple-slider-list-field divText">
+                <span style="color:#ff0000;float: left;">*</span>
+                <label>Information 2</label>
+                <div style="border: 1px solid #ccc">
+                    <ng-form>
+                        <umb-editor model="slide.column2" class="umb-editor"></umb-editor>
+                    </ng-form>
+                </div>
+            </div>
+
+            <em>Select the icon in the circle</em>
+            <div class="umb-mediapicker simple-slider-list-field">
+                <ul class="umb-sortable-thumbnails">
+                    <li style="width: 120px; height: 100px; overflow: hidden;">
+                        <a href="" ng-click="pick(slide)" class="icon-holder" ng-hide="slide.img">
+                            <i class="icon icon-add large"></i>
+                            <small>Choose...</small>
+                        </a>
+                        <label>Image</label>
+                        <img ng-src="{{slide.img}}" alt="" ng-show="slide.img">
+                        <a href="" class="picked-image" ng-click="slide.img = null" ng-show="slide.img"><i class="icon icon-delete"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Rounded corners? The default is no.</label>
+                <input type="checkbox" ng-model="slide.rounded">
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:30px;">
+                <label style="float: left; width: 160px; text-align: left;">Height of the box (pixels)</label>
+                <input type="text" placeholder="Height of the box" ng-model="slide.heightBox" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Width of the box (pixels)</label>
+                <input type="text" placeholder="Width of the box" ng-model="slide.widthBox" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Background Box Color</label>
+                <input type="text" placeholder="Background Box Color" ng-model="slide.boxColor" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Outline Box Color</label>
+                <input type="text" placeholder="Outline Box Color" ng-model="slide.outlineBoxColor" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Background Circle Color</label>
+                <input type="text" placeholder="Background Circle Color" ng-model="slide.circleColor" />
+            </div>
+
+            <div class="accordionOther"></div>
+
+        </div>
+
+    </div>
+
+    <div class="simple-slider-list-add-row">
+        <button type="button" ng-click="add()" class="icon right icon-add"></button>
+    </div>
+
+</div>

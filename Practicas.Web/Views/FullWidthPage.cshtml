@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.FullWidthPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Main.cshtml";
+}
+<style>
+    .container, .row
+    {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .column
+    {
+        padding: 0 !important;
+    }
+</style>
+@CurrentPage.GetGridHtml("grid")

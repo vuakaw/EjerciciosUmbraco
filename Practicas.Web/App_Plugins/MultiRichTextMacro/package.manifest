@@ -1,0 +1,17 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "MultiRichTextMacro",
+      "editor": {
+        "valueType": "JSON",
+        "view": "~/App_Plugins/MultiRichTextMacro/MultiRichTextMacro.html"
+      },
+      "hideLabel": true,
+      "isParameterEditor": true,
+      "name": "MultiRichTextMacroEditor"
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/MultiRichTextMacro/MultiRichTextMacro.controller.js"
+  ]
+}

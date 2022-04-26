@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46daa55b-47d8-470c-b057-6d1d22d60369": {
+      "ProjectGuid": "46daa55b-47d8-470c-b057-6d1d22d60369",
+      "DisplayName": "EjerciciosUmbraco",
+      "ColorIndex": 0
+    },
+    "3e9d8c4f-c6c2-428b-8e47-60ab980b8fe0": {
+      "ProjectGuid": "3e9d8c4f-c6c2-428b-8e47-60ab980b8fe0",
+      "DisplayName": "Umbraco",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "2d593309-a87e-4609-8ce6-e85f0d84ce32": {
+      "ProjectGuid": "2d593309-a87e-4609-8ce6-e85f0d84ce32",
+      "DisplayName": "Ejercicios.Web",
+      "ColorIndex": 2
+    },
+    "252f4670-4452-47e3-b896-3ef4c0bdc48b": {
+      "ProjectGuid": "252f4670-4452-47e3-b896-3ef4c0bdc48b",
+      "DisplayName": "Practicas.Web",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Main.cshtml";
+}
+
+@* the fun starts here *@
+
+<style>
+    .margin-page-cards
+    {
+        width: 75%;
+        margin: auto;
+        height: 250px;
+        background-color: gray;
+    }
+</style>
+<div class="margin-page-cards"></div>
+<div class="margin-page-cards">
+    @CurrentPage.GetGridHtml("grid", "FullWidthGrid")
+</div>
+<div class="margin-page-cards"></div>

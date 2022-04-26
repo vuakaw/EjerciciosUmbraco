@@ -1,0 +1,228 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.About>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Main.cshtml";
+}
+@{
+    var item = Model.Content.GetPropertyValue("backgroundImage");
+    var t = item.GetType();
+    var idProperty = t.GetProperty("Id");
+    var idImage = idProperty.GetValue(item);
+    var backgroundImageAbout = Umbraco.TypedMedia(idImage);
+    var mobileImage = Model.Content.GetPropertyValue("backgroundImageMobile");
+    var tMobile = mobileImage.GetType();
+    var idPropertyMobile = tMobile.GetProperty("Id");
+    var idImageMobile = idPropertyMobile.GetValue(mobileImage);
+    var backgroundImageMobileAbout = Umbraco.TypedMedia(idImageMobile);
+}
+
+<style>
+    .bg-image
+    {
+        margin-top: 20px;
+        background: no-repeat center center;
+        background-image: url('@backgroundImageAbout.Url');
+        height: 300px;
+    }
+    .small-container
+    {
+        max-width: 75%;
+        text-align: center;
+    }
+    .justify-paragraph
+    {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .peque
+    {
+        display: none;
+    }
+    
+    .cuadricula {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: auto;
+      
+    }
+    
+    .seccion
+    {
+        margin-top: 20px;
+    }
+    
+    .acordeon .bloque
+    {
+        margin: 0 0 1em;
+        padding: 1em;
+    }
+    
+    .acordeon .h3
+    {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+    .acordeon .contenido
+    {
+        height: 0;
+        padding: 0em;
+        overflow: hidden;
+        text-align: left;
+        transition: all .5s ease;
+    }
+    
+    .acordeon .bloque.activo .contenido
+    {
+        height: 4em;
+    }
+    
+    
+    @@media (max-width: 600px)
+    {
+        .cuadricula > div {
+          margin: 0;
+          grid-column: 1 / span 3;
+        }
+    }
+    @@media (max-width: 480px) {
+        .bg-image
+        {
+            background-image: url('@backgroundImageMobileAbout.Url');
+            max-width: 100%;
+            margin: auto;
+            max-height: 100%;
+            display: block;
+        }
+        .small-container
+        {
+            margin-top: 10px;
+            max-width: 90%;
+            text-align: center;
+        }
+        
+        .cuadricula{
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .cuadricula > div {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        hr
+        {
+            display:none;
+        }
+    }
+    @@media (max-width: 900px)
+    {
+        .cuadricula {
+          grid-template-columns: 50% 50%;
+        }
+        
+        .cuadricula > div {
+          margin: 5px;
+        }
+    }
+    @@media (max-width: 700px)
+    {
+        .container-xl
+        {
+            marging: 0;
+            padding: 0;
+            width: 100%;
+        }
+        
+        .grande
+        {
+            display: none;
+        }
+        
+        .peque
+        {
+            display: block;
+        }
+    }
+</style>
+
+
+
+<div class="container-xl">
+    <div class="bg-image d-flex justify-content-center align-items-center">
+        <h1 class="mb-3 h2 grande">@Umbraco.Field("titleAboutPage")</h1>
+        <h1 class="mb-3 h2 peque">@Umbraco.Field("littleSubtitleAboutPage")</h2>
+    </div>
+    <hr class="bg-danger border-2 border-top border-danger">
+    <div class="container small-container">
+        <h2>@Umbraco.Field("subtitleAboutPage")</h2>
+        <p class="justify-paragraph">@Umbraco.Field("textAboutPage")</p>
+    </div>
+    
+    
+    <div class="d-flex justify-content-center align-items-center">
+            <h1 class="mb-3 h2">Cartas</h1>
+    </div>
+    
+    <div class="d-flex justify-content-center align-items-center">
+        
+        
+    @{
+    	var cards = Model.Content.Site().FirstChild("about").FirstChild("CardsCollection").Children("Cards")
+    						.Where(x => x.IsVisible());
+    }
+    
+        <div class="cuadricula">
+            @foreach(var card in cards){
+             var cardImage = card.GetPropertyValue("cardImage");
+               var cardImageType = cardImage.GetType();
+               var cardIdProperty = cardImageType.GetProperty("Id");
+               var idImageCard = cardIdProperty.GetValue(cardImage);
+               var cardImageObject = Umbraco.TypedMedia(idImageCard);
+            	<div class="card" style="width: 18rem;">
+                  <img src="@cardImageObject.Url" class="card-img-top" alt="@cardImageObject.Name">
+                  <div class="card-body">
+                    <p class="card-text">@card.GetPropertyValue("cardDescription")</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+            }
+        </div>
+    </div>
+    
+    <section class="seccion container">
+        <div class="d-flex justify-content-center">
+            <h1>Employer Frequently Asked Questions</h1>
+        </div>
+        <div class="acordeon">
+            
+                @{
+                	var questions = Model.Content.Site().FirstChild("about").FirstChild("QuestionsCollection").Children("Question")
+                						.Where(x => x.IsVisible());
+                }
+            	@foreach(var question in questions){
+                	<div class="bloque">
+                	    <h3 class="h3">@question.GetPropertyValue("titleQuestion")</h3>
+                	    @Html.Raw(question.GetPropertyValue("answerQuestion"))
+            	    </div>
+            	}
+            
+        </div>
+    </section>
+    
+</div>
+<script>
+    const bloque = document.querySelectorAll('.bloque')
+    const h3 = document.querySelectorAll('.h3')
+    
+    h2.forEach (cadaH2, i)=>{
+        h2[i].addEventListener('click', ()=>{
+            bloque.forEach( (cadaBloque, i)=>{
+                bloque[i].classList.Remove('activo')
+            })
+            bloque[i].classList.add('activo')
+        })
+    })
+</script>

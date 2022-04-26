@@ -1,0 +1,45 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var selection = Model.Content.Site().FirstChild("ejercicio9").FirstChild("Tabs").Children("Tab")
+						.Where(x => x.IsVisible());
+}
+@foreach (var item in selection)
+        {
+            <div class="contenido">
+                <div class="cuadricula">
+                    @{
+                        var cards = Model.Content.Site().FirstChild("about").FirstChild("CardsCollection").Children("Cards")
+                                            .Where(x => x.IsVisible());
+                    }
+                    @foreach (var card in cards)
+                    {
+                        if (card.HasValue("Category"))
+                        {
+                            var cardImage = card.GetPropertyValue("cardImage");
+                            var cardImageType = cardImage.GetType();
+                            var cardIdProperty = cardImageType.GetProperty("Id");
+                            var idImageCard = cardIdProperty.GetValue(cardImage);
+                            var cardImageObject = Umbraco.TypedMedia(idImageCard);
+                            foreach (var tag in card.GetPropertyValue<IEnumerable<string>>("Category"))
+                            {
+                                if (item.GetPropertyValue("tabTitle").ToString() == tag)
+                                {
+                                    <div class="card">
+                                        <div class="imagen" style="background-image: url(@cardImageObject.Url);
+                                                background-position: center center;
+                                                background-repeat: no-repeat;"></div>
+                                        <div class="texto-link">
+                                            <div class="text-box">
+                                                <p class="description">In interdum a diam eget dignissim. Mauris. afdasfasdfdsfasfdsadsafdsafsdaffasdafsd</p>
+                                            </div>
+                                            <a href="#">Read more</a>
+                                        </div>
+                                    </div>
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        }

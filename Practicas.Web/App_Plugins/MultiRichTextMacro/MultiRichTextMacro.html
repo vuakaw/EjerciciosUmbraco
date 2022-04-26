@@ -1,0 +1,89 @@
+﻿<style>
+
+    .divImage {
+        margin-top: 10px;
+    }
+
+    .divImagePosition {
+        margin-top: 10px;
+    }
+
+    .divText {
+        margin-top: 10px;
+    }
+
+    .accordionOther {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border-bottom: solid 5px #80808029;
+    }
+
+    h6 {
+        color: gray;
+        font-style: italic;
+        margin-bottom: 37px;
+    }
+</style>
+
+<div id="simple-slider-list-editor" ng-controller="Macro.MultiRichTextMacro" style="overflow: hidden;">
+
+    <h3>Expertise Area</h3>
+    <em>Click on the plus icon for adding more</em>
+
+    <div style="margin-bottom:20px;"></div>
+
+    <div ui-sortable="sortableOptions" ng-model="model.value">
+
+        <div style="text-align:left;" class="simple-slider-list simple-slider-list-field" ng-class="{'simple-slider-open':selected == slide}" ng-click="select(slide)" ng-repeat="slide in model.value">
+
+            <span class="simple-slider-list-number">
+                {{slide.textLine1}}
+                <button type="button" ng-click="remove($index)" class="icon right icon-delete"></button>
+            </span>
+
+            <div class="simple-slider-list-field divTitle">
+                <span style="color:#ff0000;float: left;">*</span>
+                <label>Expertise Title</label>
+                <div style="border: 1px solid #ccc">
+                    <ng-form>
+                        <umb-editor model="slide.name" class="umb-editor"></umb-editor>
+                    </ng-form>
+                </div>
+            </div>
+
+            <div class="simple-slider-list-field divText">
+                <span style="color:#ff0000;float: left;">*</span>
+                <label>Expertise Text</label>
+                <div style="border: 1px solid #ccc">
+                    <ng-form>
+                        <umb-editor model="slide.body" class="umb-editor"></umb-editor>
+                    </ng-form>
+                </div>
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Collapsed Title Color</label>
+                <input type="text" placeholder="Collapsed Title Color" ng-model="slide.collapsedItemColor" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Uncollapsed Title Color</label>
+                <input type="text" placeholder="Uncollapsed Title Color" ng-model="slide.uncollapsedItemColor" />
+            </div>
+
+            <div class="simple-slider-list-field" style="margin-top:20px;">
+                <label style="float: left; width: 160px; text-align: left;">Background Text Color</label>
+                <input type="text" placeholder="Background Text Color" ng-model="slide.bodyItemColor" />
+            </div>
+
+            <div class="accordionOther"></div>
+
+        </div>
+
+    </div>
+
+    <div class="simple-slider-list-add-row">
+        <button type="button" ng-click="add()" class="icon right icon-add"></button>
+    </div>
+
+</div>

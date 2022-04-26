@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Inicio: lunes, 14 de marzo de 202211:28:40 a. m.
+   Origen : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Umbraco_Client\
+     Destino : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\App_Data\NuGetBackup\20220314-112838\Umbraco_Client\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Umbraco_Client\
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:         1         0         1         0         0         0
+ Archivos:         0         0         0         0         0         0
+    Bytes:         0         0         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finalizado: lunes, 14 de marzo de 2022 11:28:40 a. m.
+

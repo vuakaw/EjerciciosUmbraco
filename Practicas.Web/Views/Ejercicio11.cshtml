@@ -1,0 +1,363 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Ejercicio91>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using Umbraco.Core.PropertyEditors.ValueConverters;
+@{
+    Layout = "Main.cshtml";
+    var imageObject = Model.Content.GetPropertyValue("headerImage");
+    var t = imageObject.GetType();
+    var idProperty = t.GetProperty("Id");
+    var idImage = idProperty.GetValue(imageObject);
+    var headerImage = Umbraco.TypedMedia(idImage);
+    var selection = Model.Content.Site().FirstChild("ejercicio91").FirstChild("Tabs").Children("Tab")
+                        .Where(x => x.IsVisible());
+	var options = Model.Content.Site().FirstChild("ejercicio9").FirstChild("Tabs").Children("Tab")
+						.Where(x => x.IsVisible());
+}
+
+<style>
+    .contenedor {
+        margin: 0 auto;
+        width: 80%;
+        background-color: white;
+        max-width: 1000px;
+        border: .5px solid gray;
+        border-radius: 5px;
+        margin-top: -45px;
+        box-shadow: 5px 10px 25px 0px rgba(35,108,179,0.65);
+        -webkit-box-shadow: 5px 10px 25px 0px rgba(35,108,179,0.65);
+        -moz-box-shadow: 5px 10px 25px 0px rgba(35,108,179,0.65);
+    }
+    
+    .header {
+        background-image: url('@headerImage.Url');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .info-encabezado
+    {
+        padding-top: 15px;
+        text-align: center;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nombre-empresa{
+        width: 20%;
+        margin: 0 auto;
+        min-width: 120px;
+    }
+
+    .nombre-empresa > .nombre{
+        font-size: large;
+        margin-bottom: 1px;
+    }
+    .nombre-empresa > .nombre-subrayado
+    {
+        height: 5px;
+        background-color: orange;
+        opacity: 1;
+        border-radius: 10px;
+        margin-top: 1px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .info-adicional
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .boton-encabezado {
+        width: 120px;
+        margin: 0 auto;
+        padding: 3px 4px 4px 4px;
+        border-radius: 30px;
+        color: white;
+        background-color: orange;
+        border: 2px solid orange;
+    }
+
+    .boton-encabezado:hover
+    {
+        background-color: white;
+        color: orange;
+    }
+
+    .tab_navigation
+    {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px;
+    }
+
+    .tab_navigation li {
+        text-align: center;
+        padding: 5px 0;
+        background: #4ba7dc;
+        color: white;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    .area-contenido
+    {
+        padding: 15px 20px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: justify;
+    }
+
+    .area-contenido > input{
+        margin-bottom: 15px;
+    }
+
+    .contenido
+    {
+        display: none;
+    }
+    .form{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+
+    .select
+    {
+        width: 200px;
+        background-color: white;
+        font-size: 12px;
+        height: 32px;
+        padding: 5px;
+        border: 1px solid gray;
+        margin-right: 10px;
+    }
+
+    .buscar{
+        margin-left: 10px;
+        width: 120px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid orange;
+        color: orange;
+    }
+
+    .buscar:hover{
+        background-color: orange;
+        color: white;
+        border: 1px solid white;
+        transition: .5s;
+    }
+
+
+    .cuadricula
+    {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .card
+    {
+        height: 200px;
+    }
+
+    .card > .imagen{
+        height: 60%;
+        background-size: cover;
+        margin: 10px 10px 0 10px;
+    }
+    .card > .texto-link
+    {
+        height: 35%;
+        padding: 0;
+        margin: 10px;
+        width: 100% -20px;
+    }
+
+    .card > .texto-link > .text-box {
+        overflow: hidden;
+        width: 100%;
+        max-height: 70%;
+    }
+
+    .card > .texto-link > .text-box > p {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: left;
+        color: #0a6fc4;
+    }
+
+    .card > .texto-link > a {
+        color: #0a6fc4;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none !important;
+    }
+    .tab_navigation li:hover {
+        background: #337ab7;
+    }
+    .tab_navigation li.active {
+        background: white;
+        color: black;
+    }
+
+    @@media (max-width: 991px) {
+        .header{
+            height: 300px;
+        }
+        .contenedor {
+            margin: 0;
+            width: 100%;
+        }
+        .tab_navigation
+        {
+            grid-template-columns: 1fr;
+        }
+        .tab_navigation li.active {
+            background-color: gray;
+        }
+        
+        .form{
+            width: 30%;
+            min-width: 300px;
+            margin: 10px auto 10px auto;
+        }
+
+        .area-contenido
+        {
+            padding: 3px 10px;
+        }
+        .cuadricula {
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .texto-link
+        {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    @@media (max-width: 530px)
+    {
+        .cuadricula {
+            grid-template-columns: 1fr;
+        }
+        .header {
+            height: 400px;
+        }
+        .area-contenido {
+            padding: 2px 2px;
+        }
+    }
+    
+</style>
+<div class="header">
+    <div class="info-encabezado">
+        <div class="nombre-empresa">
+            <h3 class="nombre">@Umbraco.Field("nameOfTheCompany")</h3>
+            <hr class="nombre-subrayado" />
+        </div>
+        <div class="texto-encabezado">
+            <h1 class="mensaje-principal">@Umbraco.Field("mainMessage")</h1>
+            <p class="info-adicional">@Umbraco.Field("additionalInfo")</p>
+        </div>
+        <button class="boton-encabezado">Contact us</button>
+    </div>
+</div>
+<div class="contenedor">
+    <ul class="tab_navigation">
+        @foreach(var item in selection){
+        <li>
+            @item.GetPropertyValue("tabTitle")
+        </li>
+	    }
+    </ul>
+    <div class="area-contenido">
+
+        <div class="form">
+            <select class="select" name="dropdown" id="ddlselect">
+                <option value="" selected disabled style="color:gray;">Choose Category</option>
+                <option value="All">All</option>
+                @foreach (var option in options)
+                {
+                    <option value="@option.GetPropertyValue("tabTitle")">
+                        @option.GetPropertyValue("tabTitle")
+                    </option>
+                }
+            </select>
+            <button id="buscar" class="buscar" type="submit">Buscar</button>
+        </div>
+
+        @foreach (var item in selection)
+        {
+            <div class="contenido">
+                <div class="cuadricula">
+                    @{
+                        var cards = Model.Content.Site().FirstChild("about").FirstChild("CardsCollection").Children("Cards")
+                                            .Where(x => x.IsVisible());
+                    }
+                    @foreach (var card in cards)
+                    {
+                        var cardImage = card.GetPropertyValue("cardImage");
+                        var cardImageType = cardImage.GetType();
+                        var cardIdProperty = cardImageType.GetProperty("Id");
+                        var idImageCard = cardIdProperty.GetValue(cardImage);
+                        var cardImageObject = Umbraco.TypedMedia(idImageCard);
+                        string tagClasses = "";
+                        foreach (var tag in card.GetPropertyValue<IEnumerable<string>>("Category"))
+                        {
+                            tagClasses = tagClasses + tag + ' ';
+                        }
+                        <div class="card all @tagClasses">
+                            <div class="imagen" style="background-image: url(@cardImageObject.Url);
+                                    background-position: center center;
+                                    background-repeat: no-repeat;"></div>
+                            <div class="texto-link">
+                                <div class="text-box">
+                                    <p class="description">In interdum a diam eget dignissim. Mauris. afdasfasdfdsfasfdsadsafdsafsdaffasdafsd</p>
+                                </div>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('.contenido:first').show();
+        $('.tab_navigation li:first').addClass('active');
+        $('.tab_navigation li').click(function (event) {
+            index = $(this).index();
+            $('.tab_navigation li').removeClass('active')
+            $(this).addClass('active');
+            $('.contenido').hide();
+            $('.contenido').eq(index).show();
+        });
+        $(function () {
+            $("#buscar").click(function () {
+                var category = $("#ddlselect option:selected").text();
+                $(".card").hide();
+                $('.' + category.trim()).show();
+            })
+        })
+    });
+</script>

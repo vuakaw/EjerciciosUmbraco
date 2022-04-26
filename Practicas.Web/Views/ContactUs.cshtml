@@ -1,0 +1,249 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ContactUs>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Main.cshtml";
+    var imageObject = Model.Content.GetPropertyValue("spotlightImage");
+    var t = imageObject.GetType();
+    var idProperty = t.GetProperty("Id");
+    var idImage = idProperty.GetValue(imageObject);
+    var imageSpotlight = Umbraco.TypedMedia(idImage);
+}
+
+<style>
+    .contenedor {
+        width: 80%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    .cuadricula {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cartas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-title.little {
+        display: none;
+    }
+
+    .spotlight {
+        border: solid .1em gray;
+        display: grid;
+        grid-auto-rows: 170px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        overflow: hidden;
+    }
+
+
+    .profile-image {
+        background-image: url('@imageSpotlight.Url');
+        background-size: cover;
+    }
+
+    .another-background {
+        background-color: #2F2FA2;
+        height: 100%;
+        padding: 10px;
+        color: white;
+        font-weight: 700;
+        clip-path: polygon(0 0, 65% 0, 29% 100%, 0% 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .another-background > h3{
+        width: 55%;
+        margin-bottom: 1px;
+        padding-bottom: 0;
+    }
+
+    .another-background > p{
+        margin-top: 10px;
+        width: 27%;
+    }
+
+    .another-background > hr {
+        height: 7px !important;
+        border-radius: 10px;
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, orange, red);
+        opacity: 1 !important;
+    }
+
+    .data {
+        padding: 15px;
+        display: flex;
+        font-weight: 500;
+        justify-content: space-between;
+    }
+
+    .ver-mas {
+        background-color: white;
+        border: solid 3px #2F2FA2;
+        border-radius: 25px;
+        width: 100%;
+        font-weight: 600;
+        text-decoration: none;
+        color: #2F2FA2;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .ver-mas:hover {
+        background-color: #2F2FA2;
+        color: white;
+    }
+
+    .title-h3 {
+        background-color: orange;
+        color: white;
+    }
+
+    .info {
+        width: 75%;
+    }
+
+    @@media (max-width: 900px) {
+        .cuadricula {
+            grid-template-columns: 50% 50%;
+        }
+
+        .cuadricula > div {
+            margin: 5px;
+        }
+
+        .card-title.big {
+            display: none;
+        }
+
+        .card-title.little {
+            display: block;
+        }
+
+        .spotlight {
+            grid-template-columns: 100%;
+        }
+
+        .data {
+            padding: 20px;
+            display: table-column;
+        }
+
+        .info {
+            width: 100%;
+        }
+    }
+
+    @@media (max-width: 600px) {
+        .contenedor {
+            width: 100%;
+        }
+
+        .card {
+            width: 100% !important;
+        }
+
+        .cuadricula {
+            grid-template-columns: 1fr;
+        }
+
+        .cuadricula > div {
+            margin: 0;
+        }
+    }
+
+    @@media (max-width: 450px) {
+        .spotlight {
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
+</style>
+
+<div class="contenedor">
+    @{
+        var cards = Model.Content.Site().FirstChild("about").FirstChild("CardsCollection").Children("Cards")
+                            .Where(x => x.IsVisible());
+    }
+    <h1 class="h1">Cartas</h1>
+    <div class="cartas">
+        <div class="cuadricula">
+            @foreach (var card in cards)
+            {
+                var cardImage = card.GetPropertyValue("cardImage");
+                var cardImageType = cardImage.GetType();
+                var cardIdProperty = cardImageType.GetProperty("Id");
+                var idImageCard = cardIdProperty.GetValue(cardImage);
+                var cardImageObject = Umbraco.TypedMedia(idImageCard);
+                <div class="card" style="width: 18rem;">
+                    <img src="@cardImageObject.Url" class="card-img-top" alt="@cardImageObject.Name">
+                    <div class="card-body">
+                        <h5 class="card-title big">@card.GetPropertyValue("cardTitle")</h5>
+                        <h5 class="card-title little">@card.GetPropertyValue("littleCardTitle")</h5>
+                        <p class="card-text">@card.GetPropertyValue("cardDescription")</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div class="contenedor">
+    <h1 class="h1">Preguntas frecuentes</h1>
+    <div id="accordionGroup">
+        @{
+            var questions = Model.Content.Site().FirstChild("about").FirstChild("QuestionsCollection").Children("Question")
+                                .Where(x => x.IsVisible());
+        }
+        @foreach (var question in questions)
+        {
+            <h1 class="title-h3">@question.GetPropertyValue("titleQuestion")</h1>
+            <div>
+                @Html.Raw(question.GetPropertyValue("answerQuestion"))
+            </div>
+        }
+    </div>
+</div>
+
+
+<div class="contenedor">
+    <h1 class="h1">Spotlights</h1>
+    <div class="spotlight">
+        <div class="profile-image">
+            <div class="another-background">
+                <h3>Consultant Spotlight</h3>
+                <hr />
+                <p>Sergio Silva Jiménez</p>
+            </div>
+        </div>
+        <div class="data">
+            <div class="info">
+                <h3>@Umbraco.Field("spotlightTitle")</h3>
+                <p>@Umbraco.Field("spotlightDescription")</p>
+            </div>
+            <div>
+                <a href="#" class="ver-mas">Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $("#accordionGroup").accordion({
+        "animate": true,
+        "collapsible": true
+    });
+</script>

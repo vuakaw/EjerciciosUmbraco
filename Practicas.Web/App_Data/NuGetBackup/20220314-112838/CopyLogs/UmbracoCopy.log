@@ -1,0 +1,1755 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Inicio: lunes, 14 de marzo de 202211:28:38 a. m.
+   Origen : F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\
+     Destino : F:\dev\UmbracoProject\EjerciciosUmbraco\Practicas.Web\Umbraco\
+
+    Archivos: *.*
+	    
+Arch. ejecutables: UI.xml
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  10	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\
+	    Nuevo arch		    2359	ClientRedirect.aspx100%  
+	    Nuevo arch		    1442	create.aspx100%  
+	    Nuevo arch		     792	endPreview.aspx100%  
+	    Nuevo arch		    1624	Logout.aspx100%  
+	    Nuevo arch		     492	macroResultWrapper.aspx100%  
+	    Nuevo arch		      61	ping.aspx100%  
+	    Nuevo arch		     891	publishStatus.aspx100%  
+	    Nuevo arch		     179	tree.aspx100%  
+	    Nuevo arch		    1887	treeInit.aspx100%  
+	    Nuevo arch		     126	umbraco.aspx100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Actions\
+	    Nuevo arch		    1155	delete.aspx100%  
+	    Nuevo arch		     480	editContent.aspx100%  
+	    Nuevo arch		     471	preview.aspx100%  
+	    Nuevo arch		    1203	publish.aspx100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\css\
+	    Nuevo arch		   38215	canvasdesigner.css100%  
+	    Nuevo arch		   36971	installer.css100%  
+	    Nuevo arch		    8360	nonodes.style.min.css100%  
+	    Nuevo arch		  309214	umbraco.css 42%   84%  100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\fonts\
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\fonts\helveticons\
+	    Nuevo arch		  117324	helveticons.eot100%  
+	    Nuevo arch		  620556	helveticons.svg 42%   84%  100%  
+	    Nuevo arch		  117160	helveticons.ttf100%  
+	    Nuevo arch		  294540	helveticons.woff 44%   89%  100%  
+	   Nuevo dir      32	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\fonts\lato\
+	    Nuevo arch		   66110	LatoLatin-Black.eot100%  
+	    Nuevo arch		  144228	LatoLatin-Black.ttf 90%  100%  
+	    Nuevo arch		   70460	LatoLatin-Black.woff100%  
+	    Nuevo arch		   43456	LatoLatin-Black.woff2100%  
+	    Nuevo arch		   67322	LatoLatin-BlackItalic.eot100%  
+	    Nuevo arch		  150720	LatoLatin-BlackItalic.ttf 86%  100%  
+	    Nuevo arch		   72372	LatoLatin-BlackItalic.woff100%  
+	    Nuevo arch		   44316	LatoLatin-BlackItalic.woff2100%  
+	    Nuevo arch		   68209	LatoLatin-Bold.eot100%  
+	    Nuevo arch		  146156	LatoLatin-Bold.ttf 89%  100%  
+	    Nuevo arch		   72376	LatoLatin-Bold.woff100%  
+	    Nuevo arch		   44380	LatoLatin-Bold.woff2100%  
+	    Nuevo arch		   69528	LatoLatin-BoldItalic.eot100%  
+	    Nuevo arch		  149756	LatoLatin-BoldItalic.ttf 87%  100%  
+	    Nuevo arch		   73700	LatoLatin-BoldItalic.woff100%  
+	    Nuevo arch		   45036	LatoLatin-BoldItalic.woff2100%  
+	    Nuevo arch		   69771	LatoLatin-Italic.eot100%  
+	    Nuevo arch		  153688	LatoLatin-Italic.ttf 85%  100%  
+	    Nuevo arch		   74708	LatoLatin-Italic.woff100%  
+	    Nuevo arch		   45388	LatoLatin-Italic.woff2100%  
+	    Nuevo arch		   67508	LatoLatin-Light.eot100%  
+	    Nuevo arch		  151856	LatoLatin-Light.ttf 86%  100%  
+	    Nuevo arch		   72604	LatoLatin-Light.woff100%  
+	    Nuevo arch		   43468	LatoLatin-Light.woff2100%  
+	    Nuevo arch		   68553	LatoLatin-LightItalic.eot100%  
+	    Nuevo arch		  153096	LatoLatin-LightItalic.ttf 85%  100%  
+	    Nuevo arch		   73444	LatoLatin-LightItalic.woff100%  
+	    Nuevo arch		   44156	LatoLatin-LightItalic.woff2100%  
+	    Nuevo arch		   68135	LatoLatin-Regular.eot100%  
+	    Nuevo arch		  148540	LatoLatin-Regular.ttf 88%  100%  
+	    Nuevo arch		   72456	LatoLatin-Regular.woff100%  
+	    Nuevo arch		   43760	LatoLatin-Regular.woff2100%  
+	   Nuevo dir       9	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\fonts\opensans\
+	    Nuevo arch		   19836	OpenSans-Regular-webfont.eot100%  
+	    Nuevo arch		  100605	OpenSans-Regular-webfont.svg100%  
+	    Nuevo arch		   38232	OpenSans-Regular-webfont.ttf100%  
+	    Nuevo arch		   22660	OpenSans-Regular-webfont.woff100%  
+	    Nuevo arch		  217360	OpenSans-Regular.ttf 60%  100%  
+	    Nuevo arch		   20028	OpenSans-Semibold-webfont.eot100%  
+	    Nuevo arch		   99934	OpenSans-Semibold-webfont.svg100%  
+	    Nuevo arch		   39476	OpenSans-Semibold-webfont.ttf100%  
+	    Nuevo arch		   22908	OpenSans-Semibold-webfont.woff100%  
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\img\
+	    Nuevo arch		     100	checkered-background-20.png100%  
+	    Nuevo arch		     104	checkered-background.png100%  
+	    Nuevo arch		  178015	installer.jpg 73%  100%  
+	    Nuevo arch		   11172	loader.gif100%  
+	    Nuevo arch		    1746	logo.png100%  
+	    Nuevo arch		  237538	nonodesbg.jpg 55%  100%  
+	    Nuevo arch		      84	transparent.png100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\img\application\
+	    Nuevo arch		     967	logo.png100%  
+	    Nuevo arch		    1671	logo@2x.png100%  
+	    Nuevo arch		    2229	logo@3x.png100%  
+	    Nuevo arch		     376	logo_black.png100%  
+	    Nuevo arch		     376	logo_white.png100%  
+	   Nuevo dir      11	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\img\applicationIcons\
+	    Nuevo arch		     290	content.png100%  
+	    Nuevo arch		     732	default.png100%  
+	    Nuevo arch		     527	developer.png100%  
+	    Nuevo arch		    1182	help.svg100%  
+	    Nuevo arch		    4923	hlvticons-umbraco.svg100%  
+	    Nuevo arch		     537	media.png100%  
+	    Nuevo arch		     493	members.png100%  
+	    Nuevo arch		     330	search.png100%  
+	    Nuevo arch		     600	settings.png100%  
+	    Nuevo arch		     112	tree-arrow.png100%  
+	    Nuevo arch		     455	users.png100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\img\forms\
+	    Nuevo arch		   22679	installer-background.png100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\img\uploader\
+	    Nuevo arch		    1047	upload-illustration.png100%  
+	    Nuevo arch		     984	upload-illustration.svg100%  
+	   Nuevo dir      11	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\assets\less\
+	    Nuevo arch		     715	background.less100%  
+	    Nuevo arch		    1894	border.less100%  
+	    Nuevo arch		     370	color.less100%  
+	    Nuevo arch		     817	googlefontpicker.less100%  
+	    Nuevo arch		     831	gridRow.less100%  
+	    Nuevo arch		    1872	layout.less100%  
+	    Nuevo arch		    1135	margin.less100%  
+	    Nuevo arch		    1156	padding.less100%  
+	    Nuevo arch		    2247	radius.less100%  
+	    Nuevo arch		     639	shadow.less100%  
+	    Nuevo arch		     473	slider.less100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Config\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Config\Create\
+	   Nuevo dir      20	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Config\Lang\
+	    Nuevo arch		   67463	cs.xml100%  
+	    Nuevo arch		  102594	da.xml100%  
+	    Nuevo arch		   71501	de.xml100%  
+	    Nuevo arch		  145718	en.xml 89%  100%  
+	    Nuevo arch		  145836	en_us.xml 89%  100%  
+	    Nuevo arch		  137549	es.xml 95%  100%  
+	    Nuevo arch		  151386	fr.xml 86%  100%  
+	    Nuevo arch		   62786	he.xml100%  
+	    Nuevo arch		   63826	it.xml100%  
+	    Nuevo arch		   87699	ja.xml100%  
+	    Nuevo arch		   59599	ko.xml100%  
+	    Nuevo arch		   67053	nb.xml100%  
+	    Nuevo arch		  109710	nl.xml100%  
+	    Nuevo arch		  112417	pl.xml100%  
+	    Nuevo arch		   58194	pt.xml100%  
+	    Nuevo arch		  190953	ru.xml 68%  100%  
+	    Nuevo arch		   68081	sv.xml100%  
+	    Nuevo arch		   67516	tr.xml100%  
+	    Nuevo arch		   90610	zh.xml100%  
+	    Nuevo arch		   82080	zh_tw.xml100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Controls\
+	    Nuevo arch		     309	ProgressBar.ascx100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Controls\Tree\
+	    Nuevo arch		      82	CustomTreeService.asmx100%  
+	    Nuevo arch		    2725	TreeControl.ascx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Create\
+	    Nuevo arch		    1039	language.ascx100%  
+	    Nuevo arch		    1279	simple.ascx100%  
+	    Nuevo arch		    1696	xslt.ascx100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Dashboard\
+	    Nuevo arch		     178	FeedProxy.aspx100%  
+	    Nuevo arch		    1761	UserControlProxy.aspx100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\Macros\
+	    Nuevo arch		    1674	assemblyBrowser.aspx100%  
+	    Nuevo arch		   11871	editMacro.aspx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\Packages\
+	    Nuevo arch		    1171	directoryBrowser.aspx100%  
+	    Nuevo arch		   12723	editPackage.aspx100%  
+	    Nuevo arch		     658	installer.aspx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\RelationTypes\
+	    Nuevo arch		    6536	EditRelationType.aspx100%  
+	    Nuevo arch		    3013	NewRelationType.aspx100%  
+	    Nuevo arch		     162	RelationTypesWebService.asmx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\RelationTypes\Images\
+	    Nuevo arch		     421	Bidirectional.png100%  
+	    Nuevo arch		     434	ParentToChild.png100%  
+	    Nuevo arch		    1053	Refresh.gif100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\RelationTypes\TreeMenu\
+	    Nuevo arch		     731	ActionDeleteRelationType.js100%  
+	    Nuevo arch		     172	ActionNewRelationType.js100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Developer\Xslt\
+	    Nuevo arch		    3251	editXslt.aspx100%  
+	    Nuevo arch		     108	getXsltStatus.asmx100%  
+	    Nuevo arch		    2160	xsltChooseExtension.aspx100%  
+	    Nuevo arch		    2588	xsltInsertValueOf.aspx100%  
+	    Nuevo arch		    2895	xsltVisualize.aspx100%  
+	   Nuevo dir      19	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Dialogs\
+	    Nuevo arch		    4277	AssignDomain2.aspx100%  
+	    Nuevo arch		    6285	ChangeDocType.aspx100%  
+	    Nuevo arch		    3217	create.aspx100%  
+	    Nuevo arch		    3654	EditMacro.aspx100%  
+	    Nuevo arch		     262	empty.htm100%  
+	    Nuevo arch		     150	exportDocumenttype.aspx100%  
+	    Nuevo arch		    2031	importDocumenttype.aspx100%  
+	    Nuevo arch		     748	Preview.aspx100%  
+	    Nuevo arch		   10333	protectPage.aspx100%  
+	    Nuevo arch		    4211	publish.aspx100%  
+	    Nuevo arch		    1779	republish.aspx100%  
+	    Nuevo arch		    4204	rollBack.aspx100%  
+	    Nuevo arch		    1856	search.aspx100%  
+	    Nuevo arch		     735	SendPublish.aspx100%  
+	    Nuevo arch		    1638	sendToTranslation.aspx100%  
+	    Nuevo arch		    4124	sort.aspx100%  
+	    Nuevo arch		    1076	treePicker.aspx100%  
+	    Nuevo arch		    6939	umbracoField.aspx100%  
+	    Nuevo arch		    3109	viewAuditTrail.aspx100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Install\
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Install\Views\
+	    Nuevo arch		    2992	Index.cshtml100%  
+	    Nuevo arch		    3080	Web.config100%  
+	   Nuevo dir      26	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Js\
+	    Nuevo arch		     370	app.dev.js100%  
+	    Nuevo arch		    3044	app.js100%  
+	    Nuevo arch		     647	canvasdesigner.loader.js100%  
+	    Nuevo arch		    1249	dualSelectBox.js100%  
+	    Nuevo arch		    2929	guiFunctions.js100%  
+	    Nuevo arch		    5969	init.js100%  
+	    Nuevo arch		     597	install.loader.js100%  
+	    Nuevo arch		     150	installer.app.js100%  
+	    Nuevo arch		    1385	loader.dev.js100%  
+	    Nuevo arch		   10911	routes.js100%  
+	    Nuevo arch		  133269	umbraco.canvasdesigner.js 98%  100%  
+	    Nuevo arch		  922934	umbraco.controllers.js 28%   56%   85%  100%  
+	    Nuevo arch		  571568	umbraco.directives.js 45%   91%  100%  
+	    Nuevo arch		    5092	umbraco.filters.js100%  
+	    Nuevo arch		   19107	umbraco.installer.js100%  
+	    Nuevo arch		  199294	umbraco.resources.js 65%  100%  
+	    Nuevo arch		   11266	umbraco.security.js100%  
+	    Nuevo arch		  489299	umbraco.services.js 26%   53%   80%  100%  
+	    Nuevo arch		    2926	umbracoCheckKeys.js100%  
+	    Nuevo arch		    3833	UmbracoSpeechBubble.js100%  
+	    Nuevo arch		    2738	UmbracoSpeechBubbleBackEnd.js100%  
+	    Nuevo arch		     201	UmbracoSpeechBubbleInit.js100%  
+	    Nuevo arch		     586	umbracoUpgradeChecker.js100%  
+	    Nuevo arch		     257	web.config100%  
+	    Nuevo arch		    4102	xmlextras.js100%  
+	    Nuevo arch		    1951	xmlRequest.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ace-builds\
+	   Nuevo dir       8	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\
+	    Nuevo arch		  372383	ace.js 35%   70%  100%  
+	    Nuevo arch		   35598	ext-language_tools.js100%  
+	    Nuevo arch		   11919	ext-searchbox.js100%  
+	    Nuevo arch		   14713	ext-settings_menu.js100%  
+	    Nuevo arch		   18546	mode-javascript.js100%  
+	    Nuevo arch		   67853	mode-razor.js100%  
+	    Nuevo arch		    3041	theme-chrome.js100%  
+	    Nuevo arch		  164027	worker-javascript.js 79%  100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\snippets\
+	    Nuevo arch		    4176	javascript.js100%  
+	    Nuevo arch		     454	text.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ace-razor-mode\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ace-razor-mode\theme\
+	    Nuevo arch		    3037	razor_chrome.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular\
+	    Nuevo arch		   12518	angular-ui-sortable.js100%  
+	   Nuevo dir      14	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular\1.1.5\
+	    Nuevo arch		    5399	angular-cookies.js100%  
+	    Nuevo arch		     806	angular-cookies.min.js100%  
+	    Nuevo arch		   10645	angular-loader.js100%  
+	    Nuevo arch		     933	angular-loader.min.js100%  
+	    Nuevo arch		   17504	angular-mobile.js100%  
+	    Nuevo arch		    2875	angular-mobile.min.js100%  
+	    Nuevo arch		   61335	angular-mocks.js100%  
+	    Nuevo arch		   22149	angular-resource.js100%  
+	    Nuevo arch		    2787	angular-resource.min.js100%  
+	    Nuevo arch		   18873	angular-sanitize.js100%  
+	    Nuevo arch		    3942	angular-sanitize.min.js100%  
+	    Nuevo arch		  934395	angular-scenario.js 28%   56%   84%  100%  
+	    Nuevo arch		  590854	angular.js 44%   88%  100%  
+	    Nuevo arch		   89030	angular.min.js100%  
+	   Nuevo dir     287	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular\1.1.5\i18n\
+	    Nuevo arch		    2218	angular-locale_af-na.js100%  
+	    Nuevo arch		    2226	angular-locale_af-za.js100%  
+	    Nuevo arch		    2223	angular-locale_af.js100%  
+	    Nuevo arch		    2836	angular-locale_am-et.js100%  
+	    Nuevo arch		    2833	angular-locale_am.js100%  
+	    Nuevo arch		    3706	angular-locale_ar-001.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-ae.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-bh.js100%  
+	    Nuevo arch		    3657	angular-locale_ar-dz.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-eg.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-iq.js100%  
+	    Nuevo arch		    3869	angular-locale_ar-jo.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-kw.js100%  
+	    Nuevo arch		    3869	angular-locale_ar-lb.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-ly.js100%  
+	    Nuevo arch		    3657	angular-locale_ar-ma.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-om.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-qa.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-sa.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-sd.js100%  
+	    Nuevo arch		    3869	angular-locale_ar-sy.js100%  
+	    Nuevo arch		    3657	angular-locale_ar-tn.js100%  
+	    Nuevo arch		    3705	angular-locale_ar-ye.js100%  
+	    Nuevo arch		    3702	angular-locale_ar.js100%  
+	    Nuevo arch		    3137	angular-locale_bg-bg.js100%  
+	    Nuevo arch		    3134	angular-locale_bg.js100%  
+	    Nuevo arch		    3458	angular-locale_bn-bd.js100%  
+	    Nuevo arch		    3458	angular-locale_bn-in.js100%  
+	    Nuevo arch		    3455	angular-locale_bn.js100%  
+	    Nuevo arch		    2345	angular-locale_ca-ad.js100%  
+	    Nuevo arch		    2345	angular-locale_ca-es.js100%  
+	    Nuevo arch		    2342	angular-locale_ca.js100%  
+	    Nuevo arch		    1144	angular-locale_chr.js100%  
+	    Nuevo arch		    2445	angular-locale_cs-cz.js100%  
+	    Nuevo arch		    2442	angular-locale_cs.js100%  
+	    Nuevo arch		     938	angular-locale_cy.js100%  
+	    Nuevo arch		    2259	angular-locale_da-dk.js100%  
+	    Nuevo arch		    2256	angular-locale_da.js100%  
+	    Nuevo arch		    2261	angular-locale_de-at.js100%  
+	    Nuevo arch		    2249	angular-locale_de-be.js100%  
+	    Nuevo arch		    2240	angular-locale_de-ch.js100%  
+	    Nuevo arch		    2249	angular-locale_de-de.js100%  
+	    Nuevo arch		    2249	angular-locale_de-li.js100%  
+	    Nuevo arch		    2249	angular-locale_de-lu.js100%  
+	    Nuevo arch		    2246	angular-locale_de.js100%  
+	    Nuevo arch		    3327	angular-locale_el-cy.js100%  
+	    Nuevo arch		    3327	angular-locale_el-gr.js100%  
+	    Nuevo arch		    1495	angular-locale_el-polyton.js100%  
+	    Nuevo arch		    3324	angular-locale_el.js100%  
+	    Nuevo arch		    2212	angular-locale_en-as.js100%  
+	    Nuevo arch		    2216	angular-locale_en-au.js100%  
+	    Nuevo arch		    2212	angular-locale_en-bb.js100%  
+	    Nuevo arch		    2208	angular-locale_en-be.js100%  
+	    Nuevo arch		    2212	angular-locale_en-bm.js100%  
+	    Nuevo arch		    2215	angular-locale_en-bw.js100%  
+	    Nuevo arch		    2206	angular-locale_en-bz.js100%  
+	    Nuevo arch		    2220	angular-locale_en-ca.js100%  
+	    Nuevo arch		    4060	angular-locale_en-dsrt-us.js100%  
+	    Nuevo arch		    4057	angular-locale_en-dsrt.js100%  
+	    Nuevo arch		    2212	angular-locale_en-fm.js100%  
+	    Nuevo arch		    2216	angular-locale_en-gb.js100%  
+	    Nuevo arch		    2212	angular-locale_en-gu.js100%  
+	    Nuevo arch		    2212	angular-locale_en-gy.js100%  
+	    Nuevo arch		    2212	angular-locale_en-hk.js100%  
+	    Nuevo arch		    2224	angular-locale_en-ie.js100%  
+	    Nuevo arch		    2229	angular-locale_en-in.js100%  
+	    Nuevo arch		    2214	angular-locale_en-iso.js100%  
+	    Nuevo arch		    2212	angular-locale_en-jm.js100%  
+	    Nuevo arch		    2212	angular-locale_en-mh.js100%  
+	    Nuevo arch		    2212	angular-locale_en-mp.js100%  
+	    Nuevo arch		    2219	angular-locale_en-mt.js100%  
+	    Nuevo arch		    2212	angular-locale_en-mu.js100%  
+	    Nuevo arch		    2212	angular-locale_en-na.js100%  
+	    Nuevo arch		    2214	angular-locale_en-nz.js100%  
+	    Nuevo arch		    2212	angular-locale_en-ph.js100%  
+	    Nuevo arch		    2213	angular-locale_en-pk.js100%  
+	    Nuevo arch		    2212	angular-locale_en-pr.js100%  
+	    Nuevo arch		    2212	angular-locale_en-pw.js100%  
+	    Nuevo arch		    2212	angular-locale_en-sg.js100%  
+	    Nuevo arch		    2212	angular-locale_en-tc.js100%  
+	    Nuevo arch		    2212	angular-locale_en-tt.js100%  
+	    Nuevo arch		    2212	angular-locale_en-um.js100%  
+	    Nuevo arch		    2212	angular-locale_en-us.js100%  
+	    Nuevo arch		    2212	angular-locale_en-vg.js100%  
+	    Nuevo arch		    2212	angular-locale_en-vi.js100%  
+	    Nuevo arch		    2224	angular-locale_en-za.js100%  
+	    Nuevo arch		    2215	angular-locale_en-zw.js100%  
+	    Nuevo arch		    1242	angular-locale_en-zz.js100%  
+	    Nuevo arch		    2209	angular-locale_en.js100%  
+	    Nuevo arch		    2257	angular-locale_es-419.js100%  
+	    Nuevo arch		    2273	angular-locale_es-ar.js100%  
+	    Nuevo arch		    2273	angular-locale_es-bo.js100%  
+	    Nuevo arch		    2269	angular-locale_es-cl.js100%  
+	    Nuevo arch		    2265	angular-locale_es-co.js100%  
+	    Nuevo arch		    2273	angular-locale_es-cr.js100%  
+	    Nuevo arch		    2273	angular-locale_es-do.js100%  
+	    Nuevo arch		    2273	angular-locale_es-ea.js100%  
+	    Nuevo arch		    2269	angular-locale_es-ec.js100%  
+	    Nuevo arch		    2273	angular-locale_es-es.js100%  
+	    Nuevo arch		    2273	angular-locale_es-gq.js100%  
+	    Nuevo arch		    2269	angular-locale_es-gt.js100%  
+	    Nuevo arch		    2274	angular-locale_es-hn.js100%  
+	    Nuevo arch		    2273	angular-locale_es-ic.js100%  
+	    Nuevo arch		    2273	angular-locale_es-mx.js100%  
+	    Nuevo arch		    2273	angular-locale_es-ni.js100%  
+	    Nuevo arch		    2273	angular-locale_es-pa.js100%  
+	    Nuevo arch		    2271	angular-locale_es-pe.js100%  
+	    Nuevo arch		    2273	angular-locale_es-pr.js100%  
+	    Nuevo arch		    2273	angular-locale_es-py.js100%  
+	    Nuevo arch		    2273	angular-locale_es-sv.js100%  
+	    Nuevo arch		    2269	angular-locale_es-us.js100%  
+	    Nuevo arch		    2273	angular-locale_es-uy.js100%  
+	    Nuevo arch		    2273	angular-locale_es-ve.js100%  
+	    Nuevo arch		    2270	angular-locale_es.js100%  
+	    Nuevo arch		    2316	angular-locale_et-ee.js100%  
+	    Nuevo arch		    2313	angular-locale_et.js100%  
+	    Nuevo arch		    2267	angular-locale_eu-es.js100%  
+	    Nuevo arch		    2264	angular-locale_eu.js100%  
+	    Nuevo arch		    3249	angular-locale_fa-af.js100%  
+	    Nuevo arch		    3345	angular-locale_fa-ir.js100%  
+	    Nuevo arch		    3342	angular-locale_fa.js100%  
+	    Nuevo arch		    2392	angular-locale_fi-fi.js100%  
+	    Nuevo arch		    2389	angular-locale_fi.js100%  
+	    Nuevo arch		    2224	angular-locale_fil-ph.js100%  
+	    Nuevo arch		    2221	angular-locale_fil.js100%  
+	    Nuevo arch		    2293	angular-locale_fr-be.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-bf.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-bi.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-bj.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-bl.js100%  
+	    Nuevo arch		    2296	angular-locale_fr-ca.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-cd.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-cf.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-cg.js100%  
+	    Nuevo arch		    2296	angular-locale_fr-ch.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-ci.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-cm.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-dj.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-fr.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-ga.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-gf.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-gn.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-gp.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-gq.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-km.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-lu.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-mc.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-mf.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-mg.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-ml.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-mq.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-ne.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-re.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-rw.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-sn.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-td.js100%  
+	    Nuevo arch		    2256	angular-locale_fr-tg.js100%  
+	    Nuevo arch		    2295	angular-locale_fr-yt.js100%  
+	    Nuevo arch		    2292	angular-locale_fr.js100%  
+	    Nuevo arch		    2243	angular-locale_gl-es.js100%  
+	    Nuevo arch		    2240	angular-locale_gl.js100%  
+	    Nuevo arch		    2286	angular-locale_gsw-ch.js100%  
+	    Nuevo arch		    2283	angular-locale_gsw.js100%  
+	    Nuevo arch		    3248	angular-locale_gu-in.js100%  
+	    Nuevo arch		    3245	angular-locale_gu.js100%  
+	    Nuevo arch		     926	angular-locale_haw.js100%  
+	    Nuevo arch		    3228	angular-locale_he-il.js100%  
+	    Nuevo arch		    3225	angular-locale_he.js100%  
+	    Nuevo arch		    3266	angular-locale_hi-in.js100%  
+	    Nuevo arch		    3263	angular-locale_hi.js100%  
+	    Nuevo arch		    2556	angular-locale_hr-hr.js100%  
+	    Nuevo arch		    2553	angular-locale_hr.js100%  
+	    Nuevo arch		    2307	angular-locale_hu-hu.js100%  
+	    Nuevo arch		    2304	angular-locale_hu.js100%  
+	    Nuevo arch		    2160	angular-locale_id-id.js100%  
+	    Nuevo arch		    2157	angular-locale_id.js100%  
+	    Nuevo arch		    2157	angular-locale_in.js100%  
+	    Nuevo arch		    2372	angular-locale_is-is.js100%  
+	    Nuevo arch		    2369	angular-locale_is.js100%  
+	    Nuevo arch		    2226	angular-locale_it-ch.js100%  
+	    Nuevo arch		    2259	angular-locale_it-it.js100%  
+	    Nuevo arch		    2259	angular-locale_it-sm.js100%  
+	    Nuevo arch		    2256	angular-locale_it.js100%  
+	    Nuevo arch		    3177	angular-locale_iw.js100%  
+	    Nuevo arch		    2375	angular-locale_ja-jp.js100%  
+	    Nuevo arch		    2372	angular-locale_ja.js100%  
+	    Nuevo arch		    3242	angular-locale_kn-in.js100%  
+	    Nuevo arch		    3239	angular-locale_kn.js100%  
+	    Nuevo arch		    2389	angular-locale_ko-kr.js100%  
+	    Nuevo arch		    2386	angular-locale_ko.js100%  
+	    Nuevo arch		    2746	angular-locale_ln-cd.js100%  
+	    Nuevo arch		    2462	angular-locale_ln-cg.js100%  
+	    Nuevo arch		    2743	angular-locale_ln.js100%  
+	    Nuevo arch		    2522	angular-locale_lt-lt.js100%  
+	    Nuevo arch		    2519	angular-locale_lt.js100%  
+	    Nuevo arch		    2447	angular-locale_lv-lv.js100%  
+	    Nuevo arch		    2444	angular-locale_lv.js100%  
+	    Nuevo arch		    3515	angular-locale_ml-in.js100%  
+	    Nuevo arch		    3512	angular-locale_ml.js100%  
+	    Nuevo arch		    1387	angular-locale_mo.js100%  
+	    Nuevo arch		    3243	angular-locale_mr-in.js100%  
+	    Nuevo arch		    3240	angular-locale_mr.js100%  
+	    Nuevo arch		    2148	angular-locale_ms-bn.js100%  
+	    Nuevo arch		    2153	angular-locale_ms-my.js100%  
+	    Nuevo arch		    2150	angular-locale_ms.js100%  
+	    Nuevo arch		    2492	angular-locale_mt-mt.js100%  
+	    Nuevo arch		    2489	angular-locale_mt.js100%  
+	    Nuevo arch		    2220	angular-locale_nl-aw.js100%  
+	    Nuevo arch		    2218	angular-locale_nl-be.js100%  
+	    Nuevo arch		    2231	angular-locale_nl-cw.js100%  
+	    Nuevo arch		    2231	angular-locale_nl-nl.js100%  
+	    Nuevo arch		    2231	angular-locale_nl-sx.js100%  
+	    Nuevo arch		    2228	angular-locale_nl.js100%  
+	    Nuevo arch		    2254	angular-locale_no.js100%  
+	    Nuevo arch		    3405	angular-locale_or-in.js100%  
+	    Nuevo arch		    3402	angular-locale_or.js100%  
+	    Nuevo arch		    2586	angular-locale_pl-pl.js100%  
+	    Nuevo arch		    2583	angular-locale_pl.js100%  
+	    Nuevo arch		    2264	angular-locale_pt-ao.js100%  
+	    Nuevo arch		    2280	angular-locale_pt-br.js100%  
+	    Nuevo arch		    2264	angular-locale_pt-gw.js100%  
+	    Nuevo arch		    2264	angular-locale_pt-mz.js100%  
+	    Nuevo arch		    2304	angular-locale_pt-pt.js100%  
+	    Nuevo arch		    2264	angular-locale_pt-st.js100%  
+	    Nuevo arch		    2277	angular-locale_pt.js100%  
+	    Nuevo arch		    2344	angular-locale_ro-md.js100%  
+	    Nuevo arch		    2376	angular-locale_ro-ro.js100%  
+	    Nuevo arch		    2373	angular-locale_ro.js100%  
+	    Nuevo arch		    2755	angular-locale_ru-md.js100%  
+	    Nuevo arch		    3607	angular-locale_ru-ru.js100%  
+	    Nuevo arch		    2746	angular-locale_ru-ua.js100%  
+	    Nuevo arch		    3604	angular-locale_ru.js100%  
+	    Nuevo arch		    2379	angular-locale_sk-sk.js100%  
+	    Nuevo arch		    2376	angular-locale_sk.js100%  
+	    Nuevo arch		    2384	angular-locale_sl-si.js100%  
+	    Nuevo arch		    2381	angular-locale_sl.js100%  
+	    Nuevo arch		    2269	angular-locale_sq-al.js100%  
+	    Nuevo arch		    2266	angular-locale_sq.js100%  
+	    Nuevo arch		    2716	angular-locale_sr-cyrl-ba.js100%  
+	    Nuevo arch		    2702	angular-locale_sr-cyrl-me.js100%  
+	    Nuevo arch		    3454	angular-locale_sr-cyrl-rs.js100%  
+	    Nuevo arch		    2699	angular-locale_sr-cyrl.js100%  
+	    Nuevo arch		    2520	angular-locale_sr-latn-ba.js100%  
+	    Nuevo arch		    2519	angular-locale_sr-latn-me.js100%  
+	    Nuevo arch		    2536	angular-locale_sr-latn-rs.js100%  
+	    Nuevo arch		    2517	angular-locale_sr-latn.js100%  
+	    Nuevo arch		    1764	angular-locale_sr-rs.js100%  
+	    Nuevo arch		    3446	angular-locale_sr.js100%  
+	    Nuevo arch		    2230	angular-locale_sv-fi.js100%  
+	    Nuevo arch		    2266	angular-locale_sv-se.js100%  
+	    Nuevo arch		    2263	angular-locale_sv.js100%  
+	    Nuevo arch		    2223	angular-locale_sw-ke.js100%  
+	    Nuevo arch		    2223	angular-locale_sw-tz.js100%  
+	    Nuevo arch		    2220	angular-locale_sw.js100%  
+	    Nuevo arch		    3052	angular-locale_ta-in.js100%  
+	    Nuevo arch		    2543	angular-locale_ta-lk.js100%  
+	    Nuevo arch		    3049	angular-locale_ta.js100%  
+	    Nuevo arch		    3343	angular-locale_te-in.js100%  
+	    Nuevo arch		    3340	angular-locale_te.js100%  
+	    Nuevo arch		    3244	angular-locale_th-th.js100%  
+	    Nuevo arch		    3241	angular-locale_th.js100%  
+	    Nuevo arch		    1251	angular-locale_tl-ph.js100%  
+	    Nuevo arch		    2220	angular-locale_tl.js100%  
+	    Nuevo arch		    2227	angular-locale_tr-tr.js100%  
+	    Nuevo arch		    2224	angular-locale_tr.js100%  
+	    Nuevo arch		    3476	angular-locale_uk-ua.js100%  
+	    Nuevo arch		    3473	angular-locale_uk.js100%  
+	    Nuevo arch		    2374	angular-locale_ur-in.js100%  
+	    Nuevo arch		    3078	angular-locale_ur-pk.js100%  
+	    Nuevo arch		    3075	angular-locale_ur.js100%  
+	    Nuevo arch		    2508	angular-locale_vi-vn.js100%  
+	    Nuevo arch		    2505	angular-locale_vi.js100%  
+	    Nuevo arch		    2410	angular-locale_zh-cn.js100%  
+	    Nuevo arch		    2415	angular-locale_zh-hans-cn.js100%  
+	    Nuevo arch		    2239	angular-locale_zh-hans-hk.js100%  
+	    Nuevo arch		    2239	angular-locale_zh-hans-mo.js100%  
+	    Nuevo arch		    2245	angular-locale_zh-hans-sg.js100%  
+	    Nuevo arch		    2201	angular-locale_zh-hans.js100%  
+	    Nuevo arch		    2228	angular-locale_zh-hant-hk.js100%  
+	    Nuevo arch		    2232	angular-locale_zh-hant-mo.js100%  
+	    Nuevo arch		    2202	angular-locale_zh-hant-tw.js100%  
+	    Nuevo arch		    2199	angular-locale_zh-hant.js100%  
+	    Nuevo arch		    2465	angular-locale_zh-hk.js100%  
+	    Nuevo arch		    2404	angular-locale_zh-tw.js100%  
+	    Nuevo arch		    2407	angular-locale_zh.js100%  
+	    Nuevo arch		    2231	angular-locale_zu-za.js100%  
+	    Nuevo arch		    2228	angular-locale_zu.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular-bootstrap\
+	    Nuevo arch		   53012	ui-bootstrap-tpls-0.10.0.min.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular-dynamic-locale\
+	    Nuevo arch		    2976	tmhDynamicLocale.min.js100%  
+	    Nuevo arch		    4024	tmhDynamicLocale.min.js.map100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\angular-local-storage\
+	    Nuevo arch		    5315	angular-local-storage.min.js100%  
+	    Nuevo arch		    6885	angular-local-storage.min.js.map100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\css\
+	    Nuevo arch		   22057	bootstrap-responsive.css100%  
+	    Nuevo arch		   16858	bootstrap-responsive.min.css100%  
+	    Nuevo arch		  114355	bootstrap.cosmo.min.css100%  
+	    Nuevo arch		  105909	bootstrap.css100%  
+	    Nuevo arch		  102601	bootstrap.min.3.0.1.css100%  
+	    Nuevo arch		  105948	bootstrap.min.css100%  
+	    Nuevo arch		   16850	responsive.css100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\img\
+	    Nuevo arch		    8777	glyphicons-halflings-white.png100%  
+	    Nuevo arch		   12799	glyphicons-halflings.png100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\js\
+	    Nuevo arch		   64245	bootstrap.2.3.2.js100%  
+	    Nuevo arch		   28636	bootstrap.2.3.2.min.js100%  
+	   Nuevo dir      41	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\less\
+	    Nuevo arch		     670	accordion.less100%  
+	    Nuevo arch		    1448	alerts.less100%  
+	    Nuevo arch		    1552	bootstrap.less100%  
+	    Nuevo arch		     455	breadcrumbs.less100%  
+	    Nuevo arch		    5938	button-groups.less100%  
+	    Nuevo arch		    4994	buttons.less100%  
+	    Nuevo arch		    2640	carousel.less100%  
+	    Nuevo arch		     675	close.less100%  
+	    Nuevo arch		    1352	code.less100%  
+	    Nuevo arch		     328	component-animations.less100%  
+	    Nuevo arch		    5730	dropdowns.less100%  
+	    Nuevo arch		   16554	forms.less100%  
+	    Nuevo arch		     450	grid.less100%  
+	    Nuevo arch		     546	hero-unit.less100%  
+	    Nuevo arch		    1968	labels-badges.less100%  
+	    Nuevo arch		     344	layouts.less100%  
+	    Nuevo arch		     915	media.less100%  
+	    Nuevo arch		   23744	mixins.less100%  
+	    Nuevo arch		    2073	modals.less100%  
+	    Nuevo arch		   12547	navbar.less100%  
+	    Nuevo arch		    8572	navs.less100%  
+	    Nuevo arch		     802	pager.less100%  
+	    Nuevo arch		    2801	pagination.less100%  
+	    Nuevo arch		    3210	popovers.less100%  
+	    Nuevo arch		    2980	progress-bars.less100%  
+	    Nuevo arch		    4417	reset.less100%  
+	    Nuevo arch		     593	responsive-1200px-min.less100%  
+	    Nuevo arch		    4113	responsive-767px-max.less100%  
+	    Nuevo arch		     482	responsive-768px-979px.less100%  
+	    Nuevo arch		    4517	responsive-navbar.less100%  
+	    Nuevo arch		    1661	responsive-utilities.less100%  
+	    Nuevo arch		    1117	responsive.less100%  
+	    Nuevo arch		     938	scaffolding.less100%  
+	    Nuevo arch		   11038	sprites.less100%  
+	    Nuevo arch		    6499	tables.less100%  
+	    Nuevo arch		    1342	thumbnails.less100%  
+	    Nuevo arch		    1754	tooltip.less100%  
+	    Nuevo arch		    5104	type.less100%  
+	    Nuevo arch		     365	utilities.less100%  
+	    Nuevo arch		    9443	variables.less100%  
+	    Nuevo arch		     581	wells.less100%  
+	   Nuevo dir       8	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap\less\tests\
+	    Nuevo arch		    6550	buttons.html100%  
+	    Nuevo arch		    5625	css-tests.css100%  
+	    Nuevo arch		   41537	css-tests.html100%  
+	    Nuevo arch		    2433	forms-responsive.html100%  
+	    Nuevo arch		    4258	forms.html100%  
+	    Nuevo arch		    4796	navbar-fixed-top.html100%  
+	    Nuevo arch		    4818	navbar-static-top.html100%  
+	    Nuevo arch		    4904	navbar.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap-social\
+	    Nuevo arch		   20453	bootstrap-social.css100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\bootstrap-tabdrop\
+	    Nuevo arch		    3811	bootstrap-tabdrop.js100%  
+	    Nuevo arch		    1552	README.md100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\clipboard\
+	    Nuevo arch		   10917	clipboard.min.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\addon\
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\addon\dialog\
+	    Nuevo arch		     507	dialog.css100%  
+	    Nuevo arch		    4938	dialog.js100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\addon\edit\
+	    Nuevo arch		    6498	closebrackets.js100%  
+	    Nuevo arch		    7590	closetag.js100%  
+	    Nuevo arch		    1750	continuelist.js100%  
+	    Nuevo arch		    5254	matchbrackets.js100%  
+	    Nuevo arch		    2355	matchtags.js100%  
+	    Nuevo arch		    1003	trailingspace.js100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\addon\search\
+	    Nuevo arch		    4943	match-highlighter.js100%  
+	    Nuevo arch		     188	matchesonscrollbar.css100%  
+	    Nuevo arch		    3808	matchesonscrollbar.js100%  
+	    Nuevo arch		    7294	search.js100%  
+	    Nuevo arch		    7723	searchcursor.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\addon\selection\
+	    Nuevo arch		    2442	active-line.js100%  
+	    Nuevo arch		    3781	mark-selection.js100%  
+	    Nuevo arch		    3292	selection-pointer.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\lib\
+	    Nuevo arch		    7771	codemirror.css100%  
+	    Nuevo arch		  347063	codemirror.js 37%   75%  100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\css\
+	    Nuevo arch		   34123	css.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\htmlmixed\
+	    Nuevo arch		    5001	htmlmixed.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\javascript\
+	    Nuevo arch		   26636	javascript.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\razor\
+	    Nuevo arch		   22778	index.html100%  
+	    Nuevo arch		    1172	LICENSE100%  
+	    Nuevo arch		    9631	razor.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\codemirror\mode\xml\
+	    Nuevo arch		   12375	xml.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\cssparser\
+	    Nuevo arch		  181181	cssparser.js 72%  100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\datetimepicker\
+	    Nuevo arch		   60823	bootstrap-datetimepicker.js100%  
+	    Nuevo arch		    5062	bootstrap-datetimepicker.min.css100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\font-awesome\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\font-awesome\css\
+	    Nuevo arch		   21984	font-awesome.min.css100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\font-awesome\fonts\
+	    Nuevo arch		   56006	fontawesome-webfont.eot100%  
+	    Nuevo arch		  287007	fontawesome-webfont.svg 45%   91%  100%  
+	    Nuevo arch		  112160	fontawesome-webfont.ttf100%  
+	    Nuevo arch		   65452	fontawesome-webfont.woff100%  
+	    Nuevo arch		   85908	FontAwesome.otf100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\jquery\
+	    Nuevo arch		   85578	jquery.min.js100%  
+	    Nuevo arch		  129572	jquery.min.map100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\jquery-migrate\
+	    Nuevo arch		    9632	jquery-migrate.min.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\jquery-ui\
+	    Nuevo arch		   27250	jquery-ui-1.10.4.custom.min.css100%  
+	    Nuevo arch		  240427	jquery-ui.min.js 54%  100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\jquery-ui-touch-punch\
+	    Nuevo arch		    4967	jquery.ui.touch-punch.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\less\
+	    Nuevo arch		  101869	less-1.7.0.min.js100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\markdown\
+	    Nuevo arch		   46407	markdown.converter.js100%  
+	    Nuevo arch		    1655	markdown.css100%  
+	    Nuevo arch		   78543	markdown.editor.js100%  
+	    Nuevo arch		    4185	markdown.sanitizer.js100%  
+	    Nuevo arch		      95	red.css100%  
+	   Nuevo dir      88	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\moment\
+	    Nuevo arch		    2577	af.js100%  
+	    Nuevo arch		    2346	ar-ma.js100%  
+	    Nuevo arch		    3434	ar-sa.js100%  
+	    Nuevo arch		    2201	ar-tn.js100%  
+	    Nuevo arch		    5092	ar.js100%  
+	    Nuevo arch		    3363	az.js100%  
+	    Nuevo arch		    5940	be.js100%  
+	    Nuevo arch		    3385	bg.js100%  
+	    Nuevo arch		    4259	bn.js100%  
+	    Nuevo arch		    4876	bo.js100%  
+	    Nuevo arch		    3370	br.js100%  
+	    Nuevo arch		    4599	bs.js100%  
+	    Nuevo arch		    2859	ca.js100%  
+	    Nuevo arch		    5848	cs.js100%  
+	    Nuevo arch		    2663	cv.js100%  
+	    Nuevo arch		    2841	cy.js100%  
+	    Nuevo arch		    2038	da.js100%  
+	    Nuevo arch		    2864	de-at.js100%  
+	    Nuevo arch		    2786	de.js100%  
+	    Nuevo arch		    4024	el.js100%  
+	    Nuevo arch		    2277	en-au.js100%  
+	    Nuevo arch		    2162	en-ca.js100%  
+	    Nuevo arch		    2335	en-gb.js100%  
+	    Nuevo arch		    2641	eo.js100%  
+	    Nuevo arch		    2871	es.js100%  
+	    Nuevo arch		    3124	et.js100%  
+	    Nuevo arch		    2284	eu.js100%  
+	    Nuevo arch		    3561	fa.js100%  
+	    Nuevo arch		    3844	fi.js100%  
+	    Nuevo arch		    2090	fo.js100%  
+	    Nuevo arch		    1988	fr-ca.js100%  
+	    Nuevo arch		    2138	fr.js100%  
+	    Nuevo arch		    2538	fy.js100%  
+	    Nuevo arch		    2688	gl.js100%  
+	    Nuevo arch		    3002	he.js100%  
+	    Nuevo arch		    4513	hi.js100%  
+	    Nuevo arch		    4569	hr.js100%  
+	    Nuevo arch		    4018	hu.js100%  
+	    Nuevo arch		    4202	hy-am.js100%  
+	    Nuevo arch		    2899	id.js100%  
+	    Nuevo arch		    4464	is.js100%  
+	    Nuevo arch		    2418	it.js100%  
+	    Nuevo arch		    2104	ja.js100%  
+	    Nuevo arch		    2903	jv.js100%  
+	    Nuevo arch		    4613	ka.js100%  
+	    Nuevo arch		    2697	km.js100%  
+	    Nuevo arch		    2187	ko.js100%  
+	    Nuevo arch		    4821	lb.js100%  
+	    Nuevo arch		    4722	lt.js100%  
+	    Nuevo arch		    3881	lv.js100%  
+	    Nuevo arch		    4082	me.js100%  
+	    Nuevo arch		    3410	mk.js100%  
+	    Nuevo arch		    3400	ml.js100%  
+	    Nuevo arch		  370101	moment-with-locales.js 35%   70%  100%  
+	    Nuevo arch		  170649	moment-with-locales.min.js 76%  100%  
+	    Nuevo arch		   35415	moment.min.js100%  
+	    Nuevo arch		    4554	mr.js100%  
+	    Nuevo arch		    2817	ms-my.js100%  
+	    Nuevo arch		    2808	ms.js100%  
+	    Nuevo arch		    3386	my.js100%  
+	    Nuevo arch		    2124	nb.js100%  
+	    Nuevo arch		    4663	ne.js100%  
+	    Nuevo arch		    2536	nl.js100%  
+	    Nuevo arch		    2050	nn.js100%  
+	    Nuevo arch		    3926	pl.js100%  
+	    Nuevo arch		    2180	pt-br.js100%  
+	    Nuevo arch		    2287	pt.js100%  
+	    Nuevo arch		    2550	ro.js100%  
+	    Nuevo arch		    6613	ru.js100%  
+	    Nuevo arch		    2827	si.js100%  
+	    Nuevo arch		    5877	sk.js100%  
+	    Nuevo arch		    6058	sl.js100%  
+	    Nuevo arch		    2403	sq.js100%  
+	    Nuevo arch		    4545	sr-cyrl.js100%  
+	    Nuevo arch		    4067	sr.js100%  
+	    Nuevo arch		    2278	sv.js100%  
+	    Nuevo arch		    4511	ta.js100%  
+	    Nuevo arch		    3217	th.js100%  
+	    Nuevo arch		    2097	tl-ph.js100%  
+	    Nuevo arch		    2902	tr.js100%  
+	    Nuevo arch		    3276	tzl.js100%  
+	    Nuevo arch		    2098	tzm-latn.js100%  
+	    Nuevo arch		    2707	tzm.js100%  
+	    Nuevo arch		    6158	uk.js100%  
+	    Nuevo arch		    2316	uz.js100%  
+	    Nuevo arch		    2339	vi.js100%  
+	    Nuevo arch		    4764	zh-cn.js100%  
+	    Nuevo arch		    3438	zh-tw.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\ng-file-upload\
+	    Nuevo arch		   23766	ng-file-upload.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\rgrove-lazyload\
+	    Nuevo arch		   13187	lazyload.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\slider\
+	    Nuevo arch		    2285	bootstrap-slider-custom.css100%  
+	    Nuevo arch		    8493	bootstrap-slider.css100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\slider\js\
+	    Nuevo arch		   51451	bootstrap-slider.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\spectrum\
+	    Nuevo arch		   15122	spectrum.css100%  
+	    Nuevo arch		   40684	spectrum.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\
+	    Nuevo arch		  351057	tinymce.min.js 37%   74%  100%  
+	   Nuevo dir      16	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\langs\
+	    Nuevo arch		    7730	da.js100%  
+	    Nuevo arch		    8497	de.js100%  
+	    Nuevo arch		    6515	en.js100%  
+	    Nuevo arch		    6518	en_us.js100%  
+	    Nuevo arch		    8360	fi.js100%  
+	    Nuevo arch		    7765	fr.js100%  
+	    Nuevo arch		   15279	he.js100%  
+	    Nuevo arch		    7815	it.js100%  
+	    Nuevo arch		   12507	ja.js100%  
+	    Nuevo arch		    7452	nl.js100%  
+	    Nuevo arch		    6958	no.js100%  
+	    Nuevo arch		    8362	pl.js100%  
+	    Nuevo arch		    7053	pt.js100%  
+	    Nuevo arch		   22507	ru.js100%  
+	    Nuevo arch		    6966	sv.js100%  
+	    Nuevo arch		    8432	zh.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\advlist\
+	    Nuevo arch		     205	index.js100%  
+	    Nuevo arch		    5543	plugin.js100%  
+	    Nuevo arch		    2226	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\anchor\
+	    Nuevo arch		     202	index.js100%  
+	    Nuevo arch		    3346	plugin.js100%  
+	    Nuevo arch		    1446	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autolink\
+	    Nuevo arch		     208	index.js100%  
+	    Nuevo arch		    5618	plugin.js100%  
+	    Nuevo arch		    2127	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autoresize\
+	    Nuevo arch		     214	index.js100%  
+	    Nuevo arch		    5530	plugin.js100%  
+	    Nuevo arch		    2074	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\autosave\
+	    Nuevo arch		     208	index.js100%  
+	    Nuevo arch		    7295	plugin.js100%  
+	    Nuevo arch		    3083	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\bbcode\
+	    Nuevo arch		     202	index.js100%  
+	    Nuevo arch		    3903	plugin.js100%  
+	    Nuevo arch		    2850	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\charmap\
+	    Nuevo arch		     205	index.js100%  
+	    Nuevo arch		   20932	plugin.js100%  
+	    Nuevo arch		    8601	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\code\
+	    Nuevo arch		     196	index.js100%  
+	    Nuevo arch		    2453	plugin.js100%  
+	    Nuevo arch		    1024	plugin.min.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\
+	    Nuevo arch		    1141	plugin.min.js100%  
+	    Nuevo arch		    7671	source.html100%  
+	   Nuevo dir      16	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\langs\
+	    Nuevo arch		     224	da.js100%  
+	    Nuevo arch		     224	de.js100%  
+	    Nuevo arch		     224	en.js100%  
+	    Nuevo arch		     224	en_us.js100%  
+	    Nuevo arch		     224	fi.js100%  
+	    Nuevo arch		     224	fr.js100%  
+	    Nuevo arch		     224	he.js100%  
+	    Nuevo arch		     224	it.js100%  
+	    Nuevo arch		     224	ja.js100%  
+	    Nuevo arch		     224	nl.js100%  
+	    Nuevo arch		     224	no.js100%  
+	    Nuevo arch		     224	pl.js100%  
+	    Nuevo arch		     224	pt.js100%  
+	    Nuevo arch		     224	ru.js100%  
+	    Nuevo arch		     224	sv.js100%  
+	    Nuevo arch		     224	zh.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\
+	    Nuevo arch		     214	index.js100%  
+	    Nuevo arch		   33818	plugin.js100%  
+	    Nuevo arch		   19335	plugin.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\css\
+	    Nuevo arch		    2334	prism.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\colorpicker\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		    3353	plugin.js100%  
+	    Nuevo arch		    1349	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\contextmenu\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		    4744	plugin.js100%  
+	    Nuevo arch		    1824	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\directionality\
+	    Nuevo arch		     226	index.js100%  
+	    Nuevo arch		    1853	plugin.js100%  
+	    Nuevo arch		     857	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\
+	    Nuevo arch		     211	index.js100%  
+	    Nuevo arch		    2250	plugin.js100%  
+	    Nuevo arch		    1071	plugin.min.js100%  
+	   Nuevo dir      16	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\img\
+	    Nuevo arch		     354	smiley-cool.gif100%  
+	    Nuevo arch		     329	smiley-cry.gif100%  
+	    Nuevo arch		     331	smiley-embarassed.gif100%  
+	    Nuevo arch		     342	smiley-foot-in-mouth.gif100%  
+	    Nuevo arch		     340	smiley-frown.gif100%  
+	    Nuevo arch		     336	smiley-innocent.gif100%  
+	    Nuevo arch		     338	smiley-kiss.gif100%  
+	    Nuevo arch		     343	smiley-laughing.gif100%  
+	    Nuevo arch		     321	smiley-money-mouth.gif100%  
+	    Nuevo arch		     323	smiley-sealed.gif100%  
+	    Nuevo arch		     344	smiley-smile.gif100%  
+	    Nuevo arch		     338	smiley-surprised.gif100%  
+	    Nuevo arch		     328	smiley-tongue-out.gif100%  
+	    Nuevo arch		     337	smiley-undecided.gif100%  
+	    Nuevo arch		     350	smiley-wink.gif100%  
+	    Nuevo arch		     336	smiley-yell.gif100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullpage\
+	    Nuevo arch		     208	index.js100%  
+	    Nuevo arch		   16349	plugin.js100%  
+	    Nuevo arch		    7168	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullscreen\
+	    Nuevo arch		     214	index.js100%  
+	    Nuevo arch		    5306	plugin.js100%  
+	    Nuevo arch		    2161	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\help\
+	    Nuevo arch		     196	index.js100%  
+	    Nuevo arch		   26889	plugin.js100%  
+	    Nuevo arch		   10000	plugin.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\help\img\
+	    Nuevo arch		   13208	logo.png100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\hr\
+	    Nuevo arch		     190	index.js100%  
+	    Nuevo arch		     903	plugin.js100%  
+	    Nuevo arch		     428	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\image\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		   41563	plugin.js100%  
+	    Nuevo arch		   16612	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\imagetools\
+	    Nuevo arch		     214	index.js100%  
+	    Nuevo arch		   94868	plugin.js100%  
+	    Nuevo arch		   36155	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\importcss\
+	    Nuevo arch		     211	index.js100%  
+	    Nuevo arch		    9119	plugin.js100%  
+	    Nuevo arch		    3131	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\insertdatetime\
+	    Nuevo arch		     226	index.js100%  
+	    Nuevo arch		    6023	plugin.js100%  
+	    Nuevo arch		    2633	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\legacyoutput\
+	    Nuevo arch		     220	index.js100%  
+	    Nuevo arch		    6590	plugin.js100%  
+	    Nuevo arch		    3402	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\link\
+	    Nuevo arch		     196	index.js100%  
+	    Nuevo arch		   23126	plugin.js100%  
+	    Nuevo arch		    8919	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\lists\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		   38639	plugin.js100%  
+	    Nuevo arch		   14256	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\media\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		   36324	plugin.js100%  
+	    Nuevo arch		   15064	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\nonbreaking\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		    2448	plugin.js100%  
+	    Nuevo arch		    1012	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\noneditable\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		    4147	plugin.js100%  
+	    Nuevo arch		    1540	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\pagebreak\
+	    Nuevo arch		     211	index.js100%  
+	    Nuevo arch		    3427	plugin.js100%  
+	    Nuevo arch		    1436	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\paste\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		   52363	plugin.js100%  
+	    Nuevo arch		   20899	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\preview\
+	    Nuevo arch		     205	index.js100%  
+	    Nuevo arch		    4430	plugin.js100%  
+	    Nuevo arch		    2044	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\print\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		     835	plugin.js100%  
+	    Nuevo arch		     366	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\save\
+	    Nuevo arch		     196	index.js100%  
+	    Nuevo arch		    3294	plugin.js100%  
+	    Nuevo arch		    1426	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\searchreplace\
+	    Nuevo arch		     223	index.js100%  
+	    Nuevo arch		   19727	plugin.js100%  
+	    Nuevo arch		    7358	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\spellchecker\
+	    Nuevo arch		     220	index.js100%  
+	    Nuevo arch		   26670	plugin.js100%  
+	    Nuevo arch		   10184	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\tabfocus\
+	    Nuevo arch		     208	index.js100%  
+	    Nuevo arch		    3517	plugin.js100%  
+	    Nuevo arch		    1605	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\table\
+	    Nuevo arch		     199	index.js100%  
+	    Nuevo arch		  358802	plugin.js 36%   73%  100%  
+	    Nuevo arch		  133994	plugin.min.js 97%  100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\template\
+	    Nuevo arch		     208	index.js100%  
+	    Nuevo arch		   13552	plugin.js100%  
+	    Nuevo arch		    5414	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\textcolor\
+	    Nuevo arch		     211	index.js100%  
+	    Nuevo arch		   10837	plugin.js100%  
+	    Nuevo arch		    4924	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\textpattern\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		   11311	plugin.js100%  
+	    Nuevo arch		    4271	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\toc\
+	    Nuevo arch		     193	index.js100%  
+	    Nuevo arch		    7000	plugin.js100%  
+	    Nuevo arch		    2941	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\
+	    Nuevo arch		     220	index.js100%  
+	    Nuevo arch		    4180	plugin.js100%  
+	    Nuevo arch		    1691	plugin.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	    Nuevo arch		    5473	visualblocks.css100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualchars\
+	    Nuevo arch		     217	index.js100%  
+	    Nuevo arch		   19467	plugin.js100%  
+	    Nuevo arch		    6302	plugin.min.js100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\plugins\wordcount\
+	    Nuevo arch		     211	index.js100%  
+	    Nuevo arch		   16400	plugin.js100%  
+	    Nuevo arch		   10941	plugin.min.js100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\skins\
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\
+	    Nuevo arch		    2389	content.min.css100%  
+	    Nuevo arch		   30624	skin.classic.min.css100%  
+	    Nuevo arch		   30481	skin.ie7.min.css100%  
+	    Nuevo arch		   31598	skin.min.css100%  
+	   Nuevo dir       9	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	    Nuevo arch		      68	readme.md100%  
+	    Nuevo arch		    9492	tinymce-small.eot100%  
+	    Nuevo arch		   24789	tinymce-small.svg100%  
+	    Nuevo arch		    9304	tinymce-small.ttf100%  
+	    Nuevo arch		    9380	tinymce-small.woff100%  
+	    Nuevo arch		   17572	tinymce.eot100%  
+	    Nuevo arch		   46121	tinymce.svg100%  
+	    Nuevo arch		   17408	tinymce.ttf100%  
+	    Nuevo arch		   17484	tinymce.woff100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\img\
+	    Nuevo arch		      53	anchor.gif100%  
+	    Nuevo arch		    2608	loader.gif100%  
+	    Nuevo arch		     152	object.gif100%  
+	    Nuevo arch		      43	trans.gif100%  
+	    Nuevo arch		      46	wline.gif100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\themes\
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\themes\inlite\
+	    Nuevo arch		     198	index.js100%  
+	    Nuevo arch		  329206	theme.js 39%   79%  100%  
+	    Nuevo arch		  137499	theme.min.js 95%  100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\themes\mobile\
+	    Nuevo arch		     198	index.js100%  
+	    Nuevo arch		  456821	theme.js 28%   57%   86%  100%  
+	    Nuevo arch		  174555	theme.min.js 75%  100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\themes\modern\
+	    Nuevo arch		     198	index.js100%  
+	    Nuevo arch		  323273	theme.js 40%   81%  100%  
+	    Nuevo arch		  136313	theme.min.js 96%  100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\tinymce\themes\umbraco\
+	    Nuevo arch		    4762	theme.min.js100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\typeahead.js\
+	    Nuevo arch		   29675	typeahead.bundle.min.js100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\umbraco\
+	    Nuevo arch		    1223	compat.js100%  
+	    Nuevo arch		   11199	Extensions.js100%  
+	    Nuevo arch		    2435	LegacySpeechBubble.js100%  
+	    Nuevo arch		   19720	LegacyUmbClientMgr.js100%  
+	    Nuevo arch		     836	NamespaceManager.js100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\lib\underscore\
+	    Nuevo arch		   15626	underscore-min.js100%  
+	    Nuevo arch		   25382	underscore-min.map100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Masterpages\
+	    Nuevo arch		     234	default.Master100%  
+	    Nuevo arch		    1767	umbracoDialog.Master100%  
+	    Nuevo arch		    2281	umbracoPage.Master100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Members\
+	    Nuevo arch		    1010	EditMemberGroup.aspx100%  
+	    Nuevo arch		    1838	MemberSearch.ascx100%  
+	    Nuevo arch		     798	search.aspx100%  
+	    Nuevo arch		    1913	ViewMembers.aspx100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\PartialViewMacros\
+	   Nuevo dir      20	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\PartialViewMacros\Templates\
+	    Nuevo arch		     931	Breadcrumb.cshtml100%  
+	    Nuevo arch		    2658	EditProfile.cshtml100%  
+	    Nuevo arch		      53	Empty (ForUseWithCustomViews).cshtml100%  
+	    Nuevo arch		      49	Empty.cshtml100%  
+	    Nuevo arch		    1617	Gallery.cshtml100%  
+	    Nuevo arch		     903	ListAncestorsFromCurrentPage.cshtml100%  
+	    Nuevo arch		    1005	ListChildPagesFromChangeableSource.cshtml100%  
+	    Nuevo arch		     629	ListChildPagesFromCurrentPage.cshtml100%  
+	    Nuevo arch		     759	ListChildPagesOrderedByDate.cshtml100%  
+	    Nuevo arch		     719	ListChildPagesOrderedByName.cshtml100%  
+	    Nuevo arch		    1025	ListChildPagesOrderedByProperty.cshtml100%  
+	    Nuevo arch		     687	ListChildPagesWithDoctype.cshtml100%  
+	    Nuevo arch		    2337	ListDescendantsFromCurrentPage.cshtml100%  
+	    Nuevo arch		    1032	ListImagesFromMediaFolder.cshtml100%  
+	    Nuevo arch		    1310	Login.cshtml100%  
+	    Nuevo arch		    1402	LoginStatus.cshtml100%  
+	    Nuevo arch		     779	MultinodeTree-picker.cshtml100%  
+	    Nuevo arch		     717	Navigation.cshtml100%  
+	    Nuevo arch		    4539	RegisterMember.cshtml100%  
+	    Nuevo arch		    1335	SiteMap.cshtml100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Plugins\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Plugins\Tinymce3\
+	    Nuevo arch		     171	tinymce3tinymceCompress.aspx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Search\
+	    Nuevo arch		    1100	QuickSearch.ascx100%  
+	    Nuevo arch		    3887	quickSearch.js100%  
+	    Nuevo arch		     139	QuickSearchHandler.ashx100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Settings\
+	    Nuevo arch		     688	DictionaryItemList.aspx100%  
+	    Nuevo arch		     726	EditDictionaryItem.aspx100%  
+	    Nuevo arch		     899	editLanguage.aspx100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Settings\Modals\
+	    Nuevo arch		    3355	ShowUmbracoTags.aspx100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Settings\Stylesheet\
+	    Nuevo arch		    2484	editstylesheet.aspx100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Settings\Stylesheet\Property\
+	    Nuevo arch		    2723	EditStyleSheetProperty.aspx100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Translation\
+	    Nuevo arch		    2597	default.aspx100%  
+	    Nuevo arch		    1856	details.aspx100%  
+	    Nuevo arch		    1325	preview.aspx100%  
+	    Nuevo arch		    1007	translationTasks.dtd100%  
+	    Nuevo arch		     220	xml.aspx100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\
+	    Nuevo arch		    2710	AuthorizeUpgrade.cshtml100%  
+	    Nuevo arch		    4225	Default.cshtml100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\
+	    Nuevo arch		    1588	dashboard.html100%  
+	    Nuevo arch		     198	legacy.html100%  
+	    Nuevo arch		      59	login.html100%  
+	   Nuevo dir      15	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\dialogs\
+	    Nuevo arch		     352	approvedcolorpicker.html100%  
+	    Nuevo arch		    2485	help.html100%  
+	    Nuevo arch		    2607	iconpicker.html100%  
+	    Nuevo arch		    2109	insertmacro.html100%  
+	    Nuevo arch		     461	legacydelete.html100%  
+	    Nuevo arch		    3307	linkpicker.html100%  
+	    Nuevo arch		   15195	login.html100%  
+	    Nuevo arch		    1324	macropicker.html100%  
+	    Nuevo arch		    6436	mediapicker.html100%  
+	    Nuevo arch		    1185	membergrouppicker.html100%  
+	    Nuevo arch		      24	property.html100%  
+	    Nuevo arch		    1912	rteembed.html100%  
+	    Nuevo arch		    2450	treepicker.html100%  
+	    Nuevo arch		    4788	user.html100%  
+	    Nuevo arch		     978	ysod.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\dialogs\content\
+	    Nuevo arch		    2803	edit.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\dialogs\template\
+	    Nuevo arch		    5005	querybuilder.html100%  
+	    Nuevo arch		    1556	snippet.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\drawers\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\drawers\help\
+	    Nuevo arch		    6873	help.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\notifications\
+	    Nuevo arch		     577	confirmroutechange.html100%  
+	    Nuevo arch		     566	confirmunpublish.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contentpicker\
+	    Nuevo arch		    1670	contentpicker.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\compositions\
+	    Nuevo arch		    3445	compositions.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorpicker\
+	    Nuevo arch		    5545	editorpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorsettings\
+	    Nuevo arch		     835	editorsettings.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\propertysettings\
+	    Nuevo arch		    5568	propertysettings.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\copy\
+	    Nuevo arch		    1975	copy.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\embed\
+	    Nuevo arch		    1256	embed.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\help\
+	    Nuevo arch		    2433	help.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\iconpicker\
+	    Nuevo arch		    1529	iconpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\insert\
+	    Nuevo arch		    2426	insert.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\insertfield\
+	    Nuevo arch		    9909	insertfield.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\itempicker\
+	    Nuevo arch		    1016	itempicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\linkpicker\
+	    Nuevo arch		    3956	linkpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\macropicker\
+	    Nuevo arch		    2245	macropicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\mediaPicker\
+	    Nuevo arch		    6131	mediapicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\mediatypepicker\
+	    Nuevo arch		     459	mediatypepicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\membergrouppicker\
+	    Nuevo arch		     317	membergrouppicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\memberpicker\
+	    Nuevo arch		    1669	memberpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\move\
+	    Nuevo arch		    1443	move.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\nodepermissions\
+	    Nuevo arch		     484	nodepermissions.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\querybuilder\
+	    Nuevo arch		    4367	querybuilder.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\sectionpicker\
+	    Nuevo arch		     802	sectionpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\templatesections\
+	    Nuevo arch		    3030	templatesections.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\treepicker\
+	    Nuevo arch		    1914	treepicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\user\
+	    Nuevo arch		    4765	user.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\usergrouppicker\
+	    Nuevo arch		    3083	usergrouppicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\userpicker\
+	    Nuevo arch		    2318	userpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\overlays\ysod\
+	    Nuevo arch		    1081	ysod.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatecontent\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatecontent\nodename\
+	    Nuevo arch		    1006	nodename.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatedoctype\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatedoctype\doctypename\
+	    Nuevo arch		    1014	doctypename.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatedoctype\propertyname\
+	    Nuevo arch		    1018	propertyname.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrocreatedoctype\tabname\
+	    Nuevo arch		    1005	tabname.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintromediasection\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintromediasection\foldername\
+	    Nuevo arch		    1023	foldername.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintromediasection\uploadimages\
+	    Nuevo arch		    1005	uploadimages.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrorenderintemplate\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\common\tours\umbintrorenderintemplate\templatetree\
+	    Nuevo arch		     717	templatetree.html100%  
+	   Nuevo dir      31	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\
+	    Nuevo arch		     330	umb-avatar.html100%  
+	    Nuevo arch		      86	umb-badge.html100%  
+	    Nuevo arch		     111	umb-checkmark.html100%  
+	    Nuevo arch		    1623	umb-child-selector.html100%  
+	    Nuevo arch		     378	umb-color-swatches.html100%  
+	    Nuevo arch		     679	umb-confirm-action.html100%  
+	    Nuevo arch		     474	umb-confirm.html100%  
+	    Nuevo arch		    1409	umb-content-grid.html100%  
+	    Nuevo arch		     402	umb-date-time-picker.html100%  
+	    Nuevo arch		      23	umb-dropdown-item.html100%  
+	    Nuevo arch		      75	umb-dropdown.html100%  
+	    Nuevo arch		     204	umb-empty-state.html100%  
+	    Nuevo arch		     620	umb-folder-grid.html100%  
+	    Nuevo arch		     309	umb-generate-alias.html100%  
+	    Nuevo arch		    2885	umb-grid-selector.html100%  
+	    Nuevo arch		   18264	umb-groups-builder.html100%  
+	    Nuevo arch		    2298	umb-keyboard-shortcuts-overview.html100%  
+	    Nuevo arch		     712	umb-layout-selector.html100%  
+	    Nuevo arch		     918	umb-lightbox.html100%  
+	    Nuevo arch		      77	umb-list-view-layout.html100%  
+	    Nuevo arch		    2136	umb-list-view-settings.html100%  
+	    Nuevo arch		     206	umb-load-indicator.html100%  
+	    Nuevo arch		    1570	umb-locked-field.html100%  
+	    Nuevo arch		    2062	umb-media-grid.html100%  
+	    Nuevo arch		    5012	umb-mini-list-view.html100%  
+	    Nuevo arch		    1420	umb-node-preview.html100%  
+	    Nuevo arch		     863	umb-pagination.html100%  
+	    Nuevo arch		     152	umb-progress-bar.html100%  
+	    Nuevo arch		     653	umb-progress-circle.html100%  
+	    Nuevo arch		    3633	umb-table.html100%  
+	    Nuevo arch		      87	umb-tooltip.html100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\application\
+	    Nuevo arch		     958	umb-backdrop.html100%  
+	    Nuevo arch		     597	umb-contextmenu.html100%  
+	    Nuevo arch		    5418	umb-navigation.html100%  
+	    Nuevo arch		    2941	umb-sections.html100%  
+	    Nuevo arch		    4056	umb-tour.html100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\application\umbdrawer\
+	    Nuevo arch		      52	umb-drawer-content.html100%  
+	    Nuevo arch		      51	umb-drawer-footer.html100%  
+	    Nuevo arch		     170	umb-drawer-header.html100%  
+	    Nuevo arch		      49	umb-drawer-view.html100%  
+	    Nuevo arch		     122	umb-drawer.html100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\application\umbtour\
+	    Nuevo arch		     115	umb-tour-step-content.html100%  
+	    Nuevo arch		      76	umb-tour-step-counter.html100%  
+	    Nuevo arch		      55	umb-tour-step-footer.html100%  
+	    Nuevo arch		     129	umb-tour-step-header.html100%  
+	    Nuevo arch		     224	umb-tour-step.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\buttons\
+	    Nuevo arch		    1372	umb-button-group.html100%  
+	    Nuevo arch		    2129	umb-button.html100%  
+	    Nuevo arch		    1113	umb-toggle.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\content\
+	    Nuevo arch		    3602	edit.html100%  
+	    Nuevo arch		   10465	umb-content-node-info.html100%  
+	   Nuevo dir      10	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\editor\
+	    Nuevo arch		     794	umb-breadcrumbs.html100%  
+	    Nuevo arch		     300	umb-editor-container.html100%  
+	    Nuevo arch		      72	umb-editor-footer-content-left.html100%  
+	    Nuevo arch		      73	umb-editor-footer-content-right.html100%  
+	    Nuevo arch		     163	umb-editor-footer.html100%  
+	    Nuevo arch		    3973	umb-editor-header.html100%  
+	    Nuevo arch		     870	umb-editor-menu.html100%  
+	    Nuevo arch		     572	umb-editor-navigation.html100%  
+	    Nuevo arch		     291	umb-editor-sub-views.html100%  
+	    Nuevo arch		     140	umb-editor-view.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\editor\subheader\
+	    Nuevo arch		      71	umb-editor-sub-header-content-left.html100%  
+	    Nuevo arch		      72	umb-editor-sub-header-content-right.html100%  
+	    Nuevo arch		      66	umb-editor-sub-header-section.html100%  
+	    Nuevo arch		     135	umb-editor-sub-header.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\html\
+	    Nuevo arch		     662	umb-control-group.html100%  
+	    Nuevo arch		      47	umb-pane.html100%  
+	    Nuevo arch		      58	umb-panel.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\html\umb-box\
+	    Nuevo arch		      49	umb-box-content.html100%  
+	    Nuevo arch		     474	umb-box-header.html100%  
+	    Nuevo arch		      41	umb-box.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\imaging\
+	    Nuevo arch		     571	umb-image-crop.html100%  
+	    Nuevo arch		     323	umb-image-gravity.html100%  
+	    Nuevo arch		     230	umb-image-thumbnail.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\media\
+	    Nuevo arch		    2343	umb-media-node-info.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\notifications\
+	    Nuevo arch		     965	umb-notifications.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\overlays\
+	    Nuevo arch		      95	umb-overlay-backdrop.html100%  
+	    Nuevo arch		    3683	umb-overlay.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\property\
+	    Nuevo arch		     131	umb-property-editor.html100%  
+	    Nuevo arch		       0	umb-property-group.html
+	    Nuevo arch		     880	umb-property.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\tabs\
+	    Nuevo arch		     130	umb-tab.html100%  
+	    Nuevo arch		      85	umb-tabs-content.html100%  
+	    Nuevo arch		     248	umb-tabs-nav.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\tree\
+	    Nuevo arch		     599	umb-tree-search-box.html100%  
+	    Nuevo arch		     892	umb-tree-search-results.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\upload\
+	    Nuevo arch		    4042	umb-file-dropzone.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\components\users\
+	    Nuevo arch		    4042	change-password.html100%  
+	    Nuevo arch		     365	umb-permission.html100%  
+	    Nuevo arch		    2380	umb-user-group-preview.html100%  
+	    Nuevo arch		     700	umb-user-preview.html100%  
+	   Nuevo dir      12	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\content\
+	    Nuevo arch		    3943	copy.html100%  
+	    Nuevo arch		    2256	create.html100%  
+	    Nuevo arch		    1761	createblueprint.html100%  
+	    Nuevo arch		     463	delete.html100%  
+	    Nuevo arch		     468	edit.html100%  
+	    Nuevo arch		     704	emptyrecyclebin.html100%  
+	    Nuevo arch		    3403	move.html100%  
+	    Nuevo arch		    2101	notify.html100%  
+	    Nuevo arch		     522	recyclebin.html100%  
+	    Nuevo arch		    1285	restore.html100%  
+	    Nuevo arch		    6356	rights.html100%  
+	    Nuevo arch		     206	umbpreview.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\contentblueprints\
+	    Nuevo arch		    1551	create.html100%  
+	    Nuevo arch		     441	delete.html100%  
+	    Nuevo arch		     372	edit.html100%  
+	    Nuevo arch		    1857	intro.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\
+	    Nuevo arch		     587	ChangePassword.html100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\default\
+	    Nuevo arch		   25651	ourumbraco.jpg100%  
+	    Nuevo arch		    3498	StartupDashboardIntro.html100%  
+	    Nuevo arch		    1365	StartupDashboardKits.html100%  
+	    Nuevo arch		       0	StartupDashboardLastEdits.html
+	    Nuevo arch		     830	StartupDashboardVideos.html100%  
+	    Nuevo arch		   49817	umbracotv.jpg100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\developer\
+	    Nuevo arch		    1266	developerdashboardintro.html100%  
+	    Nuevo arch		     876	developerdashboardvideos.html100%  
+	    Nuevo arch		   17956	examinemanagement.html100%  
+	    Nuevo arch		    7081	healthcheck.html100%  
+	    Nuevo arch		    5252	redirecturls.html100%  
+	    Nuevo arch		    1309	xmldataintegrityreport.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\forms\
+	    Nuevo arch		    1643	formsdashboardintro.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\media\
+	    Nuevo arch		    1840	desktopmediauploader.html100%  
+	    Nuevo arch		     918	mediadashboardintro.html100%  
+	    Nuevo arch		     829	mediadashboardvideos.html100%  
+	    Nuevo arch		     157	mediafolderbrowser.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\members\
+	    Nuevo arch		     395	membersdashboardintro.html100%  
+	    Nuevo arch		     821	membersdashboardvideos.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dashboard\settings\
+	    Nuevo arch		    1313	settingsdashboardintro.html100%  
+	    Nuevo arch		     829	settingsdashboardvideos.html100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\datatypes\
+	    Nuevo arch		    1987	create.html100%  
+	    Nuevo arch		    1612	delete.html100%  
+	    Nuevo arch		    2345	edit.html100%  
+	    Nuevo arch		    2126	move.html100%  
+	    Nuevo arch		     966	rename.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\dictionary\
+	    Nuevo arch		     726	create.html100%  
+	    Nuevo arch		     451	delete.html100%  
+	    Nuevo arch		    1615	edit.html100%  
+	    Nuevo arch		    2258	list.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\directives\
+	   Nuevo dir       8	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\directives\_obsolete\
+	    Nuevo arch		     738	umb-content-name.html100%  
+	    Nuevo arch		     406	umb-header.html100%  
+	    Nuevo arch		    1472	umb-item-sorter.html100%  
+	    Nuevo arch		     572	umb-login.html100%  
+	    Nuevo arch		     832	umb-optionsmenu.html100%  
+	    Nuevo arch		    1080	umb-photo-folder.html100%  
+	    Nuevo arch		     147	umb-tab-view.html100%  
+	    Nuevo arch		     239	umb-upload-dropzone.html100%  
+	   Nuevo dir       8	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\
+	    Nuevo arch		    2185	copy.html100%  
+	    Nuevo arch		    4707	create.html100%  
+	    Nuevo arch		    1710	delete.html100%  
+	    Nuevo arch		    2500	edit.html100%  
+	    Nuevo arch		    2183	move.html100%  
+	    Nuevo arch		     148	property.html100%  
+	    Nuevo arch		       0	propertygroup.html
+	    Nuevo arch		     973	rename.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\views\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\views\design\
+	    Nuevo arch		      95	design.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\views\listview\
+	    Nuevo arch		     553	listview.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\views\permissions\
+	    Nuevo arch		    1694	permissions.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\documenttypes\views\templates\
+	    Nuevo arch		     903	templates.html100%  
+	   Nuevo dir       9	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\install\
+	    Nuevo arch		     401	continueinstall.html100%  
+	    Nuevo arch		    4724	database.html100%  
+	    Nuevo arch		     329	error.html100%  
+	    Nuevo arch		    1104	machinekey.html100%  
+	    Nuevo arch		    1007	permissionsreport.html100%  
+	    Nuevo arch		     915	starterkit.html100%  
+	    Nuevo arch		     885	upgrade.html100%  
+	    Nuevo arch		    3057	user.html100%  
+	    Nuevo arch		    1015	version7upgradereport.html100%  
+	   Nuevo dir       7	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\media\
+	    Nuevo arch		    1641	create.html100%  
+	    Nuevo arch		     445	delete.html100%  
+	    Nuevo arch		    2826	edit.html100%  
+	    Nuevo arch		     714	emptyrecyclebin.html100%  
+	    Nuevo arch		    1947	move.html100%  
+	    Nuevo arch		     522	recyclebin.html100%  
+	    Nuevo arch		    1304	restore.html100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\mediatypes\
+	    Nuevo arch		    2179	copy.html100%  
+	    Nuevo arch		    1941	create.html100%  
+	    Nuevo arch		    1649	delete.html100%  
+	    Nuevo arch		    2455	edit.html100%  
+	    Nuevo arch		    2161	move.html100%  
+	    Nuevo arch		     966	rename.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\mediatypes\views\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\mediatypes\views\design\
+	    Nuevo arch		      92	design.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\mediatypes\views\listview\
+	    Nuevo arch		     550	listview.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\mediatypes\views\permissions\
+	    Nuevo arch		    1635	permissions.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\member\
+	    Nuevo arch		    1035	create.html100%  
+	    Nuevo arch		     459	delete.html100%  
+	    Nuevo arch		    2079	edit.html100%  
+	    Nuevo arch		    1094	list.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\membertypes\
+	    Nuevo arch		    1918	create.html100%  
+	    Nuevo arch		    1127	delete.html100%  
+	    Nuevo arch		    2415	edit.html100%  
+	    Nuevo arch		     362	move.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\membertypes\views\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\membertypes\views\design\
+	    Nuevo arch		     121	design.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\packager\
+	    Nuevo arch		     454	delete.html100%  
+	    Nuevo arch		     814	overview.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\packager\views\
+	    Nuevo arch		    9227	install-local.html100%  
+	    Nuevo arch		    6122	installed.html100%  
+	    Nuevo arch		   20878	repo.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\partialviewmacros\
+	    Nuevo arch		    3986	create.html100%  
+	    Nuevo arch		     442	delete.html100%  
+	    Nuevo arch		    4455	edit.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\partialviews\
+	    Nuevo arch		    3494	create.html100%  
+	    Nuevo arch		     437	delete.html100%  
+	    Nuevo arch		    4824	edit.html100%  
+	   Nuevo dir      17	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\prevalueeditors\
+	    Nuevo arch		     170	boolean.html100%  
+	    Nuevo arch		     437	decimal.html100%  
+	    Nuevo arch		      84	hidden.html100%  
+	    Nuevo arch		    1112	imagepicker.html100%  
+	    Nuevo arch		     876	mediapicker.html100%  
+	    Nuevo arch		    1304	multivalues.html100%  
+	    Nuevo arch		     166	nodetype.html100%  
+	    Nuevo arch		     434	number.html100%  
+	    Nuevo arch		     589	radiobuttonlist.html100%  
+	    Nuevo arch		     222	readonlykeyvalues.html100%  
+	    Nuevo arch		     411	requiredfield.html100%  
+	    Nuevo arch		     101	textarea.html100%  
+	    Nuevo arch		      94	textstring.html100%  
+	    Nuevo arch		     470	textstringlimited.html100%  
+	    Nuevo arch		     866	treepicker.html100%  
+	    Nuevo arch		    2942	treesource.html100%  
+	    Nuevo arch		     270	valuetype.html100%  
+	   Nuevo dir      13	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\Preview\
+	    Nuevo arch		    2540	Background.cshtml100%  
+	    Nuevo arch		    1018	Border.cshtml100%  
+	    Nuevo arch		     130	Color.cshtml100%  
+	    Nuevo arch		    1554	Googlefontpicker.cshtml100%  
+	    Nuevo arch		     237	GridRow.cshtml100%  
+	    Nuevo arch		    8837	Index.cshtml100%  
+	    Nuevo arch		     377	Layout.cshtml100%  
+	    Nuevo arch		     500	Margin.cshtml100%  
+	    Nuevo arch		     509	Padding.cshtml100%  
+	    Nuevo arch		     923	Radius.cshtml100%  
+	    Nuevo arch		     233	Shadow.cshtml100%  
+	    Nuevo arch		     253	Slider.cshtml100%  
+	    Nuevo arch		    1987	web.config100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\boolean\
+	    Nuevo arch		     207	boolean.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\changepassword\
+	    Nuevo arch		     230	changepassword.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\checkboxlist\
+	    Nuevo arch		     465	checkboxlist.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\colorpicker\
+	    Nuevo arch		     812	colorpicker.html100%  
+	    Nuevo arch		    1588	colorpicker.prevalues.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\contentpicker\
+	    Nuevo arch		    4560	contentpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\datepicker\
+	    Nuevo arch		    1866	datepicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\decimal\
+	    Nuevo arch		     645	decimal.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\dropdown\
+	    Nuevo arch		     782	dropdown.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\dropdownFlexible\
+	    Nuevo arch		     843	dropdownFlexible.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\email\
+	    Nuevo arch		     705	email.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\entitypicker\
+	    Nuevo arch		     661	entitypicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\fileupload\
+	    Nuevo arch		    1828	fileupload.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\folderbrowser\
+	    Nuevo arch		     149	folderbrowser.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\googlemaps\
+	    Nuevo arch		     182	googlemaps.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\
+	    Nuevo arch		   16675	grid.html100%  
+	    Nuevo arch		    7277	grid.prevalues.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\config\
+	    Nuevo arch		    7328	grid.default.config.js100%  
+	    Nuevo arch		     265	grid.default.rtestyles.css100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\dialogs\
+	    Nuevo arch		     485	config.html100%  
+	    Nuevo arch		     472	editconfig.html100%  
+	    Nuevo arch		    4915	layoutconfig.html100%  
+	    Nuevo arch		    4406	rowconfig.html100%  
+	    Nuevo arch		     432	rowdeleteconfirm.html100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\grid\editors\
+	    Nuevo arch		     519	embed.html100%  
+	    Nuevo arch		     114	error.html100%  
+	    Nuevo arch		     603	macro.html100%  
+	    Nuevo arch		     799	media.html100%  
+	    Nuevo arch		    1042	rte.html100%  
+	    Nuevo arch		     302	textstring.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\imagecropper\
+	    Nuevo arch		    3113	imagecropper.html100%  
+	    Nuevo arch		    2373	imagecropper.prevalues.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\integer\
+	    Nuevo arch		     663	integer.html100%  
+	   Nuevo dir       6	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\listview\
+	    Nuevo arch		    1218	bulkActionPermissions.prevalues.html100%  
+	    Nuevo arch		    2612	includeproperties.prevalues.html100%  
+	    Nuevo arch		    2297	layouts.prevalues.html100%  
+	    Nuevo arch		    8518	listview.html100%  
+	    Nuevo arch		     459	orderDirection.prevalues.html100%  
+	    Nuevo arch		     190	sortby.prevalues.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\grid\
+	    Nuevo arch		    3329	grid.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\list\
+	    Nuevo arch		    2685	list.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\macrocontainer\
+	    Nuevo arch		    1159	macrocontainer.html100%  
+	    Nuevo arch		     217	macrolist.prevalues.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\markdowneditor\
+	    Nuevo arch		     538	markdowneditor.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\mediapicker\
+	    Nuevo arch		    2962	mediapicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\membergrouppicker\
+	    Nuevo arch		     688	membergrouppicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\membergroups\
+	    Nuevo arch		     688	membergroups.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\memberpicker\
+	    Nuevo arch		     728	memberpicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\multipletextbox\
+	    Nuevo arch		    1089	multipletextbox.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\nestedcontent\
+	    Nuevo arch		    2891	nestedcontent.doctypepicker.html100%  
+	    Nuevo arch		     464	nestedcontent.editor.html100%  
+	    Nuevo arch		    4373	nestedcontent.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\radiobuttons\
+	    Nuevo arch		     474	radiobuttons.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\readonlyvalue\
+	    Nuevo arch		     161	readonlyvalue.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\relatedlinks\
+	    Nuevo arch		    5870	relatedlinks.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\rte\
+	    Nuevo arch		    1050	rte.html100%  
+	    Nuevo arch		    1825	rte.prevalues.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\sensitivevalue\
+	    Nuevo arch		     247	sensitivevalue.html100%  
+	   Nuevo dir       4	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\slider\
+	    Nuevo arch		     381	handle.prevalues.html100%  
+	    Nuevo arch		     362	orientation.prevalues.html100%  
+	    Nuevo arch		     143	slider.html100%  
+	    Nuevo arch		     382	tooltip.prevalues.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\tags\
+	    Nuevo arch		    1294	tags.html100%  
+	    Nuevo arch		     211	tags.prevalues.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\templatepicker\
+	    Nuevo arch		     113	templatepicker.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\test\
+	    Nuevo arch		     476	test.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\textarea\
+	    Nuevo arch		     656	textarea.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\textbox\
+	    Nuevo arch		     771	textbox.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\ultrasimple\
+	    Nuevo arch		     243	ultrasimple.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\urllist\
+	    Nuevo arch		     509	urllist.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\propertyeditors\validationtest\
+	    Nuevo arch		     558	validationtest.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\scripts\
+	    Nuevo arch		    2089	create.html100%  
+	    Nuevo arch		     432	delete.html100%  
+	    Nuevo arch		    1867	edit.html100%  
+	   Nuevo dir       2	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\templates\
+	    Nuevo arch		     446	delete.html100%  
+	    Nuevo arch		    7766	edit.html100%  
+	   Nuevo dir       3	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\users\
+	    Nuevo arch		   11715	group.html100%  
+	    Nuevo arch		     674	overview.html100%  
+	    Nuevo arch		    2972	user.html100%  
+	   Nuevo dir       0	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\users\views\
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\users\views\groups\
+	    Nuevo arch		    4961	groups.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\users\views\user\
+	    Nuevo arch		   19852	details.html100%  
+	   Nuevo dir       1	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Views\users\views\users\
+	    Nuevo arch		   27903	users.html100%  
+	   Nuevo dir      14	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Webservices\
+	    Nuevo arch		   26403	ajax.js100%  
+	    Nuevo arch		     125	CacheRefresher.asmx100%  
+	    Nuevo arch		     130	CheckForUpgrade.asmx100%  
+	    Nuevo arch		     111	CMSNode.asmx100%  
+	    Nuevo arch		     125	codeEditorSave.asmx100%  
+	    Nuevo arch		     127	legacyAjaxCalls.asmx100%  
+	    Nuevo arch		     142	MacroContainerService.asmx100%  
+	    Nuevo arch		     117	nodeSorter.asmx100%  
+	    Nuevo arch		     125	progressStatus.asmx100%  
+	    Nuevo arch		     106	publication.asmx100%  
+	    Nuevo arch		     154	TagsAutoCompleteHandler.ashx100%  
+	    Nuevo arch		     134	TreeClientService.asmx100%  
+	    Nuevo arch		     130	TreeDataService.ashx100%  
+	    Nuevo arch		    8404	wsdl.xslt100%  
+	   Nuevo dir       5	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Xslt\
+	    Nuevo arch		     667	macroGetCurrent.xsl100%  
+	    Nuevo arch		    1178	macroGetSubs.xsl100%  
+	    Nuevo arch		    1114	searchResult.xslt100%  
+	    Nuevo arch		    1756	sqlNodeHierachy.xslt100%  
+	    Nuevo arch		     594	Web.config100%  
+	   Nuevo dir      15	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Xslt\Templates\
+	    Nuevo arch		    1085	Breadcrumb.xslt100%  
+	    Nuevo arch		     527	Clean.xslt100%  
+	    Nuevo arch		    1264	ListSubPagesAsThumbnails.xslt100%  
+	    Nuevo arch		    1063	ListSubPagesByDateAndLimit.xslt100%  
+	    Nuevo arch		     918	ListSubPagesByDocumentType.xslt100%  
+	    Nuevo arch		     886	ListSubPagesByLevel.xslt100%  
+	    Nuevo arch		     956	ListSubPagesFromAChangableSource.xslt100%  
+	    Nuevo arch		     756	ListSubPagesFromCurrentPage.xslt100%  
+	    Nuevo arch		    1151	ListThumbnailsFromCurrentPage.xslt100%  
+	    Nuevo arch		     771	ListWholeStructureFromCurrentPage.xslt100%  
+	    Nuevo arch		    1280	NavigationPrototype.xslt100%  
+	    Nuevo arch		    1701	RelatedLinks.xslt100%  
+	    Nuevo arch		    3263	RSSFeed.xslt100%  
+	    Nuevo arch		    1579	Sitemap.xslt100%  
+	    Nuevo arch		    1586	TablePrototype.xslt100%  
+	   Nuevo dir      15	F:\dev\UmbracoProject\EjerciciosUmbraco\packages\UmbracoCms.7.12.4\UmbracoFiles\Umbraco\Xslt\Templates\Schema2\
+	    Nuevo arch		    1066	Breadcrumb.xslt100%  
+	    Nuevo arch		     527	Clean.xslt100%  
+	    Nuevo arch		    1015	ListSubPagesAsThumbnails.xslt100%  
+	    Nuevo arch		    1055	ListSubPagesByDateAndLimit.xslt100%  
+	    Nuevo arch		     891	ListSubPagesByDocumentType.xslt100%  
+	    Nuevo arch		     875	ListSubPagesByLevel.xslt100%  
+	    Nuevo arch		     948	ListSubPagesFromAChangableSource.xslt100%  
+	    Nuevo arch		     748	ListSubPagesFromCurrentPage.xslt100%  
+	    Nuevo arch		     893	ListThumbnailsFromCurrentPage.xslt100%  
+	    Nuevo arch		     763	ListWholeStructureFromCurrentPage.xslt100%  
+	    Nuevo arch		    1267	NavigationPrototype.xslt100%  
+	    Nuevo arch		    1714	RelatedLinks.xslt100%  
+	    Nuevo arch		    3251	RSSFeed.xslt100%  
+	    Nuevo arch		    1567	Sitemap.xslt100%  
+	    Nuevo arch		    1560	TablePrototype.xslt100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:       322       321         1         0         0         0
+ Archivos:      1403      1402         1         0         0         0
+    Bytes:   20.79 m   20.79 m     4.3 k         0         0         0
+   Tiempo:   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+Velocidad:            19022598 Bytes/s
+Velocidad:            1088.481 Megabytes/min
+   Finalizado: lunes, 14 de marzo de 2022 11:28:40 a. m.
+
